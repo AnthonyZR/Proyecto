@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <link rel="stylesheet" href="../CSS/styles.css">
 <body>
@@ -32,9 +35,12 @@
                     <a href="#">Colecciones ⌵</a>
                     <ul class="submenu">
                         <li><a href="#">Minimalista</a></li>
-                        <li><a href="#">Nórdica</a></li>
+                        <li><a href="#">Clásico</a></li>
+                        <li><a href="#">Nórdico</a></li>
+                        <li><a href="#">Japandi</a></li>
                         <li><a href="#">Industrial</a></li>
                         <li><a href="#">Moderna</a></li>
+                        <li><a href="#">Rústica</a></li>
                     </ul>
                 </li>
                 <li>
@@ -66,61 +72,61 @@
     </section>
 
     <section id="categorias">
-        <h2>Explorar más categorías</h2>
-        <div class="contenedor-productos">
+    <h2>Explora más categorías</h2>
+    <div class="carrusel-categorias">
+        <button class="flecha" id="anterior">&#10094;</button>
+        <div class="contenedor-productos" id="carrusel-ctg">
             <a href="02-sala.html">
-                <img src="../Img/sala.webp  " alt="Sala">
-                <p>Sala</p>
+                <img src="../Img/sala.webp" alt="Sala">
+                <h3>Sala</h3>
             </a>
 
             <a href="03-dormitorio.html">
                 <img src="../Img/dormitorio.webp" alt="Dormitorio">
-                <p>Dormitorio</p>
+                <h3>Dormitorio</h3>
             </a>
 
             <a href="04-oficina.html">
                 <img src="../Img/oficina.jpg" alt="Oficina">
-                <p>Oficina</p>
+                <h3>Oficina</h3>
             </a>
 
             <a href="05-comedor.html">
                 <img src="../Img/comerdor.jpg" alt="Comedor">
-                <p>Comedor</p>
+                <h3>Comedor</h3>
             </a>
 
             <a href="06-baño.html">
                 <img src="../Img/baño.jpg" alt="Baño">
-                <p>Baño</p>
+                <h3>Baño</h3>
             </a>
 
             <a href="07-decoracion.html">
                 <img src="../Img/decoracion.jpg" alt="Decoración">
-                <p>Decoración</p>
+                <h3>Decoración</h3>
             </a>
 
             <a href="08-iluminacion.html">
                 <img src="../Img/iluminacion.avif" alt="Iluminación">
-                <p>Iluminación</p>
+                <h3>Iluminación</h3>
             </a>
 
             <a href="09-almacenamiento.html">
                 <img src="../Img/almacenamiento.webp" alt="Almacenamiento">
-                <p>Almacenamiento</p>
+                <h3>Almacenamiento</h3>
             </a>
 
             <a href="10-exterior.html">
                 <img src="../Img/Exterior.avif" alt="Exterior">
-                <p>Exterior</p>
+                <h3>Exterior</h3>
             </a>
         </div>
+        <button class="flecha" id="siguiente">&#10095;</button>
+    </div>
     </section>
 
     <section id="mas-vendidos">
         <h2>Lo más vendido</h2>
-        <div>
-            <button>&lt;</button>
-            <button>&gt;</button>
-        </div>
         <div class="contenedor-productos">
             <article>
                 <a href="producto.html">
@@ -153,10 +159,6 @@
 
     <section id="ofertas">
         <h2>En oferta</h2>
-        <div>
-            <button>&lt;</button>
-            <button>&gt;</button>
-        </div>
         <div class="contenedor-productos">
             <article>
                 <a href="producto.html">
@@ -186,32 +188,46 @@
 
     <section id="colecciones">
         <h2>Colecciones</h2>
-        <div>
-            <button>&lt;</button>
-            <button>&gt;</button>
-        </div>
-        <div class="contenedor-productos">
-            <article>
-                <a href="">
-                    <img src="" alt="Minimalista">
-                    <p>Minimalista</p>
-                </a>
-            </article>
+        <div class="carrusel-categorias">
+        <button class="flecha" id="anterior-1">&#10094;</button>
+        <div class="contenedor-productos" id="carrusel-clc">
+            <a href="">
+                <img src="../Img/minimalista.jpg" alt="Minimalista">
+                <h3>Minimalista</h3>
+            </a>
 
-            <article>
-                <a href="">
-                    <img src="" alt="Clásico">
-                    <p>Clásico</p>
-                </a>
-            </article>
+            <a href="">
+                <img src="../Img/clasico.webp" alt="Clásico">
+                <h3>Clásico</h3>
+            </a>
 
-            <article>
-                <a href="">
-                    <img src="" alt="Nórdico">
-                    <p>Nórdico</p>
-                </a>
-            </article>
+            <a href="">
+                <img src="../Img/nordico.jpg" alt="Nórdico">
+                <h3>Nórdico</h3>
+            </a>
+
+            <a href="">
+                <img src="../Img/japandi.webp" alt="Japandi">
+                <h3>Japandi</h3>
+            </a>
+
+            <a href="">
+                <img src="../Img/industrial.jpg" alt="Industrial">
+                <h3>Industrial</h3>
+            </a>
+
+            <a href="">
+                <img src="../Img/moderno.jpg" alt="Moderna">
+                <h3>Moderna</h3>
+            </a>
+
+            <a href="">
+                <img src="../Img/rustico.webp" alt="Rústica">
+                <h3>Rústica</h3>
+            </a>
         </div>
+        <button class="flecha" id="siguiente-1">&#10095;</button>
+    </div>
     </section>
 
     <footer class="pie-pagina">
@@ -276,5 +292,6 @@
             Todos los derechos reservados.
         </p>
     </footer>
+    <script src="../JS/script.js"></script>
 </body>
 </html>
