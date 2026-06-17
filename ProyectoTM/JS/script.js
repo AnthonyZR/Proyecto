@@ -10,7 +10,6 @@ btnSiguiente.addEventListener("click", function(){
         carrusel.scrollLeft += 270;
     }
 });
-
 btnAnterior.addEventListener("click", function(){
     if(carrusel.scrollLeft <= 0){
     carrusel.scrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
