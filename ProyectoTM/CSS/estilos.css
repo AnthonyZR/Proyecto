@@ -41,6 +41,7 @@ section h2{
     font-weight:bold;
 }
 
+/* NAV */
 .navbar-toggler:focus{
     box-shadow: none;
     border: none;
@@ -188,36 +189,21 @@ article p{
     margin-bottom: 5%;
 }
 
-/* FOOTER */
-.pie-pagina{    
-    background:#222;
-    color:white;
-    display:flex;
-    justify-content:space-around;
-    flex-wrap:wrap;
-    padding-top: 25px;
+/*FOOTER*/
+footer{
+    margin-top:80px;
 }
-.pie-pagina h3{
-    margin-bottom:15px;
-    font-size: 17pt;
+footer h5{
+    margin-bottom:18px;
+    font-weight:700;
 }
-.pie-pagina ul{
-    list-style:none;
-    padding-left: 0;
-}
-.pie-pagina li{
+footer p{
     margin-bottom:10px;
+    color:#ddd;
 }
-.pie-pagina hr{
-    width:100%;
-}
-.pie-pagina p{
-    width:100%;
-    text-align:center;
-}
-footer div img{
-    width: 35px;
-    margin-right: 10px;
+footer a{
+    color:white;
+    text-decoration:none;
 }
 
 @media(max-width:768px){

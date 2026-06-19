@@ -4,69 +4,199 @@
     box-sizing:border-box;
 }
 body{
-    font-family:Arial, Helvetica, sans-serif;
     background:#f5f5f5;
+    font-family:Arial, Helvetica, sans-serif;
     color:#333;
 }
-.detalle-producto{
-    display:flex;
-    gap:50px;
-    padding:50px;
-    max-width:1400px;
-    margin:auto;
+
+/*NAV*/
+.nav-link{
+    font-weight:600;
+    transition:.3s;
 }
-.galeria-producto{
-    display:flex;
-    gap:20px;
+.nav-link:hover{
+    color:#666 !important;
 }
-.info-producto{
-    flex:1;
-}
-#categoria-producto{
-    color:#666;
-    text-transform:capitalize;
-    margin-bottom:10px;
-}
-#nombre-producto{
-    font-size:2rem;
-    margin-bottom:20px;
-}
-#precio-producto{
-    font-size:2rem;
-    font-weight:bold;
-    margin-bottom:20px;
-}
-.info-producto h3{
-    margin:20px 0 10px;
-}
-#descripcion-producto{
-    line-height:1.6;
-    margin-bottom:30px;
-}
-.btn-carrito{
-    background:black;
-    color:white;
-    border:none;
-    padding:15px 30px;
-    font-size:1rem;
-    cursor:pointer;
-    border-radius:8px;
-}
-.btn-carrito:hover{
-    opacity:.85;
-}
-.contenedor-imagen{
-    width:500px;
-    height:500px;
-    background:white;
-    border-radius:12px;
+#contador-carrito{
+    position:absolute;
+    top:0px;
+    right:-8px;
+    width:18px;
+    height:18px;
+    background:#dc3545;
+    color:#fff;
     display:flex;
     justify-content:center;
     align-items:center;
+    font-size:11px;
+    font-weight:700;
+}
+.breadcrumb a{
+    text-decoration:none;
+    color: black;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+
+/*PRODUCTO */
+.card{
+    border:none;
+    border-radius:20px;
+}
+.contenedor-imagen{
+    width:100%;
+    height:600px;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:35px;
     overflow:hidden;
+    border-radius:20px;
 }
 #imagen-principal{
     width:100%;
     height:100%;
     object-fit:contain;
+}
+.categoria{
+    width:max-content;
+    font-size:.9rem;
+    padding:8px 15px;
+    text-transform:capitalize;
+}
+#nombre-producto{
+    font-size:2.6rem;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:15px;
+}
+.estrellas{
+    color:#ffc107;
+    font-size:1rem;
+}
+.estrellas span{
+    color:#666;
+    font-size:.95rem;
+}
+.precio{
+    font-size:3rem;
+    font-weight:700;
+    color:#111;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+#descripcion-producto{
+    color:#555;
+    line-height:1.8;
+}
+.cantidad-producto{
+    width: 5rem;
+}
+.btn{
+    border-radius:12px;
+    padding:14px;
+    font-weight:600;
+    transition:.3s;
+}
+.btn-dark:hover{
+    transform:translateY(-2px);
+}
+.btn-outline-dark:hover{
+    transform:translateY(-2px);
+}
+.beneficios-producto{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:80px;
+    margin-top:40px;
+    padding:20px 0;
+    border-top:1px solid #e5e5e5;
+    flex-wrap:wrap;
+}
+.beneficio{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+}
+.beneficio i{
+    font-size:1.8rem;
+    color:#333;
+}
+.beneficio strong{
+    display:block;
+    margin-bottom:4px;
+}
+.beneficio p{
+    margin:0;
+    color:#666;
+    font-size:.92rem;
+}
+
+/*RELACIONADOS*/
+.producto-relacionado{
+    overflow:hidden;
+    border-radius:18px;
+}
+.producto-relacionado img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    background:#f2f2f2;
+}
+.producto-relacionado .card-body{
+    text-align:center;
+}
+.producto-relacionado h5{
+    font-size:1.15rem;
+    margin-bottom:10px;
+}
+.producto-relacionado p{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#222;
+}
+
+/*FOOTER*/
+footer{
+    margin-top:80px;
+}
+footer h5{
+    margin-bottom:18px;
+    font-weight:700;
+}
+footer p{
+    margin-bottom:10px;
+    color:#ddd;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+@media (max-width:768px){
+
+    .contenedor-imagen{
+        height:380px;
+        padding:25px;
+    }
+    #nombre-producto{
+        font-size:1.8rem;
+    }
+    .precio{
+        font-size:2rem;
+    }
+    .beneficios-producto{
+        flex-direction:column;
+        gap:20px;
+    }
+    footer{
+        text-align:center;
+    }
+    footer .col-md-4{
+        margin-bottom:35px;
+    }
 }
