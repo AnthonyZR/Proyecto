@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+    color:  dimgray;
+}
+
+/* header */
+.encabezado{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:20px 40px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.encabezado h1{
+    font-size:15pt;
+}
+
+.encabezado form{
+    display:flex;
+    gap:10px;
+    flex-shrink:1;
+}
+
+.encabezado input{
+    width:100%;
+    max-width:300px;
+    padding:8px 15px;
+}
+
+.encabezado a{
+    font-size:10pt;
+    text-decoration:none;
+}
+
+/* banner */
+.banner{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+/*menu superior */
+.menu-superior{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.menu-superior ul{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.menu-superior li{
+    position:relative;
+}
+
+.menu-superior a{
+    text-decoration:none;
+    color:dimgray;
+    font-weight:bold;
+}
+
+.menu-superior a:hover{
+    color:gray;
+}
+
+.submenu{
+    display:none !important;
+    position:absolute;
+    top:100%;
+    left:0;
+    min-width:120px;
+    background:white;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+    padding:10px 0;
+    z-index:2;
+}
+
+.desplegable:hover .submenu{
+    display:block !important;
+}
+
+.submenu li{
+    width:100%;
+}
+
+.submenu a{
+    display:block;
+    padding:8px 15px;
+    font-size:10pt;
+}
+
+.submenu a:hover{
+    background:whitesmoke;
+}
+
+
+/* contenido */
+section{
+    padding:40px;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+
+/* banner */
+section:first-of-type img{
+    width:100%;
+    height:500px;
+    background:silver;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+
+/* categorias productos */
+#categorias .contenedor-productos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+#categorias a{
+    text-decoration:none;
+    color:black;
+    text-align:center;
+}
+
+#categorias img{
+    width:100%;
+    height:180px;
+    background:silver;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+
+/* contenedor para productos internas y secciones */
+.contenedor-productos{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+article{
+    width:280px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+article:hover{
+    transform:translateY(-5px);
+}
+
+article a{
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+
+article img{
+    width:100%;
+    height:220px;
+    background:Silver;
+    object-fit:cover;
+}
+
+article h3{
+    padding:15px 15px 10px;
+}
+
+article p{
+    padding:0 15px 15px;
+}
+
+/* botones flechas */
+#mas-vendidos > div:first-of-type,
+#ofertas > div:first-of-type,
+#colecciones > div:first-of-type{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+#mas-vendidos button,
+#ofertas button,
+#colecciones button{
+    width:45px;
+    height:45px;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+
+/* footer */
+
+.pie-pagina{
+    background:darkslategray;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:50px;
+}
+.pie-pagina h3{
+    margin-bottom:15px;
+}
+.pie-pagina ul{
+    list-style:none;
+}
+.pie-pagina li{
+    margin-bottom:10px;
+}
+/* afecta solo a los enlaces de las listas de Ayuda y Empresa */
+.pie-pagina ul a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+/* Estilo exclusivo para los enlaces de redes sociales */
+.pie-pagina div a {
+    color:white;
+    text-decoration:none;
+    display:inline-flex;  /* Cambiado de block a inline-flex para alinear en línea */
+    align-items:center;   /* Centra perfectamente el texto con el centro del icono */
+    gap:10px;             /* Espacio horizontal exacto entre icono y texto */
+    margin-bottom:15px;   /* Separación vertical con la red social de abajo */
+    width:100%;           /* Fuerza a que cada red social ocupe su propia línea */
+}
+/* Controla el tamaño de tus iconos de redes sociales */
+.pie-pagina div a img {
+    width:30px;           
+    height:auto;
+}
+.pie-pagina hr{
+    width:100%;
+    margin:20px 0;
+}
+.pie-pagina p{
+    width:100%;
+    text-align:center;
+}
+
+
+/*nuevo*/
+
+/* Organiza el panel y los productos lado a lado */
+.contenedor-principal {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 40px;
+    gap: 30px;
+}
+
+/* El área de productos ocupará el espacio restante */
+#exterior-productos {
+    flex: 1;
+    padding: 0; /* Limpia el padding antiguo para alinearse bien con el filtro */
+}
+
+/* Diseño base del panel de filtros */
+.panel-filtros {
+    width: 280px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
+
+.encabezado-filtros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.encabezado-filtros h3 {
+    font-size: 11pt;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* Secciones de criterios (Tipo, Material, etc.) */
+.grupo-filtro {
+    margin-bottom: 20px;
+}
+
+.grupo-filtro h4 {
+    font-size: 11pt;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: dimgray; /* Modificado: de #333 a dimgray */
+}
+
+.grupo-filtro label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10pt;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: dimgray;
+}
+
+.grupo-filtro input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* Líneas divisorias internas del panel */
+.divisor-filtro {
+    border: 0;
+    border-top: 1px solid whitesmoke;
+    margin: 20px 0;
+}
+
+/* Círculos selectores de color */
+.contenedor-circulos {
+    display: flex;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.circulo-color {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+}
+
+/* Deslizador de precios */
+.control-precio {
+    width: 100%;
+    accent-color: darkgreen; /* Modificado: de #2b5329 a un verde nativo estándar */
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.rango-valores {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9pt;
+    color: gray;
+}
+
+/* Botones inferiores de acción */
+.acciones-filtros {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-aplicar {
+    background-color: darkgreen; /* Modificado: de #2b5329 a darkgreen */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10pt;
+    transition: background 0.2s;
+}
+
+.btn-aplicar:hover {
+    background-color: green; /* Modificado: de #1e3b1c a un tono verde activo */
+}
+
+.btn-limpiar {
+    background: none;
+    border: none;
+    color: darkgreen; /* Modificado: de #2b5329 a darkgreen */
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10pt;
+    text-align: center;
+}
