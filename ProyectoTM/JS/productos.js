@@ -178,8 +178,113 @@ const productos = [
     material: "Madera MDF",
     color: "Blanco",
     dimensiones: "60 x 25 x 120 cm"
-    }
+    },
     
-    
+    {
+id: "prod-19",
+nombre: "Set de Terraza Bali",
+precio: 599,
+categoria: "Exterior",
+imagen: "../Img/exterior/set de terraza bali.png",
+descripcion: "Mesa de centro y 2 sillones de ratán sintético con cojines rectangulares.",
+material: "Ratán sintético y aluminio",
+color: "Marrón",
+dimensiones: "120 x 70 x 75 cm"
+},
 
+{
+id: "prod-20",
+nombre: "Silla Reclinable Premium",
+precio: 299,
+categoria: "Exterior",
+imagen: "../Img/exterior/silla revlinable premium.png",
+descripcion: "Tumbona de madera teca con posiciones ajustables para piscina.",
+material: "Madera teca",
+color: "Natural",
+dimensiones: "190 x 65 x 35 cm"
+},
+
+{
+id: "prod-21",
+nombre: "Sombrilla Excéntrica",
+precio: 349,
+categoria: "Exterior",
+imagen: "../Img/exterior/sombria EXCENTRICA.png",
+descripcion: "Sombrilla de 3 metros con base pesada y protección UV +50.",
+material: "Aluminio y poliéster",
+color: "Beige",
+dimensiones: "300 x 300 cm"
+},
+
+{
+id: "prod-22",
+nombre: "Estantería Modular Kob",
+precio: 249,
+categoria: "Almacenamiento",
+imagen: "../Img/almacenamiento/estanteria modular kob.jpg",
+descripcion: "Librero de 5 niveles estilo industrial en madera y metal.",
+material: "Madera y metal",
+color: "Roble oscuro",
+dimensiones: "80 x 35 x 180 cm"
+},
+
+{
+id: "prod-23",
+nombre: "Aparador Scandi",
+precio: 450,
+categoria: "Almacenamiento",
+imagen: "../Img/almacenamiento/aparador scandi.jpg",
+descripcion: "Mueble buffet con 3 cajones y puertas corredizas.",
+material: "Madera maciza",
+color: "Natural",
+dimensiones: "120 x 40 x 85 cm"
+},
+
+{
+id: "prod-24",
+nombre: "Baúl Organizador Loft",
+precio: 189,
+categoria: "Almacenamiento",
+imagen: "../Img/almacenamiento/Baúl Organizador.jpg",
+descripcion: "Banqueta baúl tapizada en lino gris para pie de cama.",
+material: "Lino y madera",
+color: "Gris",
+dimensiones: "90 x 40 x 45 cm"
+},
+
+{
+id: "prod-25",
+nombre: "Lámpara de Pie Aurora",
+precio: 119,
+categoria: "Iluminación",
+imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_916840-MPE109680481028_042026-F.webp",
+descripcion: "Lámpara de pie con luz cálida ideal para salas y espacios de lectura.",
+material: "Metal y tela",
+color: "Negro",
+dimensiones: "160 x 40 cm"
+},
+
+{
+id: "prod-26",
+nombre: "Lámpara de Mesa Luna",
+precio: 49,
+categoria: "Iluminación",
+imagen: "https://media.falabella.com/falabellaPE/137692860_01/w=1200,h=1200,fit=pad",
+descripcion: "Lámpara de mesa compacta perfecta para escritorios y mesas de noche.",
+material: "Metal y vidrio",
+color: "Blanco",
+dimensiones: "45 x 20 cm"
+},
+
+{
+id: "prod-27",
+nombre: "Lámpara Colgante Nova",
+precio: 59,
+categoria: "Iluminación",
+imagen: "https://media.falabella.com/sodimacPE/2286815_01/w=1200,h=1200,fit=pad",
+descripcion: "Lámpara colgante moderna para comedores y salas.",
+material: "Metal",
+color: "Negro mate",
+dimensiones: "35 x 35 cm"
+},
     ];
