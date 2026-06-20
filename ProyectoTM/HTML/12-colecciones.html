@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colecciones</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="../CSS/colecciones.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="01-principal.html">Tienda de muebles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown">Categorías</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="02-sala.html">Sala</a></li>
+                        <li><a class="dropdown-item" href="03-dormitorio.html">Dormitorio</a></li>
+                        <li><a class="dropdown-item" href="04-oficina.html">Oficina</a></li>
+                        <li><a class="dropdown-item" href="05-comedor.html">Comedor</a></li>
+                        <li><a class="dropdown-item" href="06-baño.html">Baño</a></li>
+                        <li><a class="dropdown-item" href="07-decoracion.html">Decoración</a></li>
+                        <li><a class="dropdown-item" href="08-iluminacion.html">Iluminación</a></li>
+                        <li><a class="dropdown-item" href="09-almacenamiento.html">Almacenamiento</a></li>
+                        <li><a class="dropdown-item" href="10-exterior.html">Exterior</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="01-principal.html#ofertas">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="01-principal.html#mas-vendidos">Lo más vendido</a>
+                </li>
+            </ul>
+        <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Buscar">
+        </form>
+    </div>
+    </div>
+    </nav>
+
+    <section class="hero-title">
+        <h1>Colecciones</h1>
+        <div class="line"></div>
+    </section>
+
+    <section class="showroom">
+        <div class="panel" style="background-image:url('../Img/Cat&Col/minimalista.jpg')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Minimalista</h2>
+                    <p>Espacios despejados, funcionalidad y elegancia.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#minimalista">Ver colección</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="background-image:url('../Img/Cat&Col/clasico.webp')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Clásico</h2>
+                    <p>Elegancia atemporal con detalles refinados.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#clasico">Ver colección</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="background-image:url('../Img/Cat&Col/nordico.jpg')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Nórdico</h2>
+                    <p>Calidez, luminosidad y diseño escandinavo.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#nordico">Ver colección</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="background-image:url('../Img/Cat&Col/japandi.webp')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Japandi</h2>
+                    <p>La armonía perfecta entre Japón y Escandinavia.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#japandi">Ver colección</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="background-image:url('../Img/Cat&Col/industrial.jpg')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Industrial</h2>
+                    <p>Metal, madera y carácter urbano.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#industrial">Ver colección</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="background-image:url('../Img/Cat&Col/moderno.jpg')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Moderna</h2>
+                    <p>Líneas contemporáneas y sofisticadas.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#moderna">Ver colección</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="background-image:url('../Img/Cat&Col/rustico.webp')">
+            <div class="overlay">
+                <div class="content">
+                    <span>Colección</span>
+                    <h2>Rústica</h2>
+                    <p>La belleza natural de la madera maciza.</p>
+                    <button class="btn-show" data-bs-toggle="collapse" data-bs-target="#rustica">Ver colección
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <div class="collapse" id="minimalista">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="../Img/sala/sofa serene.png">
+                        <div class="product-info">
+                            <h5>Sofá "Serene Comfort"</h5>
+                            <span>S/ 3,499</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="../Img/sala/mesas centro nido.png">
+                        <div class="product-info">
+                            <h5>Mesas de Centro Nido "Double Eclipse"</h5>
+                            <span>S/ 849</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="../Img/iluminacion/lampara colgante cascada.png">
+                        <div class="product-info">
+                            <h5>Lámpara Colgante en Cascada "Sphere Breeze"</h5>
+                            <span>S/ 549</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="../Img/sala/mesa horizon pure.png">
+                        <div class="product-info">
+                            <h5>Mueble de TV "Horizon Pure"</h5>
+                            <span>S/ 1,899</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="clasico">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="nordico">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="japandi">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="industrial">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="moderna">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse" id="rustica">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="product-card">
+                        <img src="">
+                        <div class="product-info">
+                            <h5></h5>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5>Empresa</h5>
+                    <a href=""><p>Quiénes somos</p></a>
+                    <a href=""><p>Trabaja con nosotros</p></a>
+                    <a href=""><p>Política de privacidad</p></a>
+                    <a href=""><p>Términos y condiciones</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Atención al cliente</h5>
+                    <a href=""><p>Preguntas frecuentes</p></a>
+                    <a href=""><p>Métodos de pago</p></a>
+                    <a href=""><p>Envíos</p></a>
+                    <a href=""><p>Devoluciones</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="fs-3">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook me-3"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram me-3"></i></a>
+                        <a href="https://www.tiktok.com/" target="_blank"><i class="bi bi-tiktok me-3"></i></a>
+                        <a href="https://www.x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                    <hr>
+                    <p>Suscríbete para recibir nuevas ofertas y colecciones.</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Correo electrónico">
+                        <button class="btn btn-light">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center mb-0">© 2026 Tienda de Muebles. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    document.querySelectorAll('.btn-show').forEach(btn => {
+        btn.addEventListener('click', function () {
+
+            const destino = this.getAttribute('data-bs-target');
+
+            document.querySelectorAll('.collapse.show').forEach(collapse => {
+                if ('#' + collapse.id !== destino) {
+                    bootstrap.Collapse.getOrCreateInstance(collapse).hide();
+                }
+            });
+        });
+    });
+
+    document.querySelectorAll('.collapse').forEach(collapseEl => {
+        collapseEl.addEventListener('shown.bs.collapse', function () {
+            document.querySelectorAll('.panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            const boton = document.querySelector(
+                `[data-bs-target="#${this.id}"]`
+            );
+            boton.closest('.panel').classList.add('active');
+        });
+        collapseEl.addEventListener('hidden.bs.collapse', function () {
+            const boton = document.querySelector(
+                `[data-bs-target="#${this.id}"]`
+            );
+            boton.closest('.panel').classList.remove('active');
+        });
+    });
+    </script>
+</body>
+</html>

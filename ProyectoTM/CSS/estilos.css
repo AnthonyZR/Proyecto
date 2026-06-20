@@ -1,5 +1,5 @@
 body{
-    background-color:#f5f5f5;
+    background-color:#faf8f5;
     color:#333;
     font-family: "Noto Serif", serif;
 }
@@ -27,12 +27,10 @@ section h2{
     position:absolute;
     inset:0;
     background:rgba(0,0,0,.35);
-
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-
     color:white;
     text-align:center;
 }
@@ -148,45 +146,6 @@ article p{
     justify-content:center;
     align-items:center;
     font-size:10pt
-}
-
-/*Colecciones*/
-#colecciones img{
-    width:100%;
-    height:180px;
-    border-radius:10px 10px 0 0;
-    margin-top:10px;
-}
-#colecciones .contenedor-productos{
-    display:flex;
-    flex-wrap:nowrap;
-    gap:20px;
-    overflow:hidden;
-    justify-content:flex-start;
-    scroll-behavior:smooth;
-    padding-bottom: 5%;
-}
-#colecciones h3{
-    font-size: 15pt;
-}
-#colecciones a{
-    text-decoration:none;
-    color:black;
-    text-align:center;
-    display:block;
-    transition:.5s;
-    overflow: hidden;
-    border-radius: 10px;
-}
-#colecciones a:hover{
-    transform:translateY(-5px);
-    box-shadow: 0 10px 10px -5px rgba(0,0,0,.2);
-}
-#colecciones .contenedor-productos a{
-    flex:0 0 230px;
-}
-#anterior-1, #siguiente-1{
-    margin-bottom: 5%;
 }
 
 /*FOOTER*/

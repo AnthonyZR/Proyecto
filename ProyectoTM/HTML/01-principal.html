@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal</title>
+    <title>Tienda de muebles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,9 +21,6 @@
         </button>
     <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-                <a class="nav-link fw-semibold" href="#">Inicio</a>
-            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown">Categorías</a>
                     <ul class="dropdown-menu">
@@ -38,23 +35,14 @@
                         <li><a class="dropdown-item" href="10-exterior.html">Exterior</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown">Colecciones</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Minimalista</a></li>
-                        <li><a class="dropdown-item" href="#">Clásico</a></li>
-                        <li><a class="dropdown-item" href="#">Nórdico</a></li>
-                        <li><a class="dropdown-item" href="#">Japandi</a></li>
-                        <li><a class="dropdown-item" href="#">Industrial</a></li>
-                        <li><a class="dropdown-item" href="#">Moderna</a></li>
-                        <li><a class="dropdown-item" href="#">Rústica</a></li>
-                    </ul>
+               <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="12-colecciones.html">Colecciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold" href="#">Ofertas</a>
+                    <a class="nav-link fw-semibold" href="#ofertas">Ofertas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold" href="#">Lo más vendido</a>
+                    <a class="nav-link fw-semibold" href="#mas-vendidos">Lo más vendido</a>
                 </li>
             </ul>
         <form class="d-flex">
@@ -136,7 +124,7 @@
             <article>
                 <div class="dsc">20%</div>
                 <a href="11-productos.html?id=prod-01">
-                    <img src="../Img/oficina/silla de oficina.png" alt="Silla de Oficina ErgoMax">
+                    <img src="../Img/oficina/silla ergomax.png" alt="Silla de Oficina ErgoMax">
                     <h3>Silla de Oficina ErgoMax</h3>
                     <p>S/159</p>
                 </a>
@@ -145,7 +133,7 @@
             <article>
             <div class="dsc">15%</div>
                 <a href="11-productos.html?id=prod-02">
-                    <img src="../Img/dormitorio/comoda.png" alt="Cómoda Sable 4">
+                    <img src="../Img/dormitorio/comoda sable.png" alt="Cómoda Sable 4">
                     <h3>Cómoda Sable 4</h3>
                     <p>S/89</p>
                 </a>
@@ -167,7 +155,7 @@
         <div class="contenedor-productos">
             <article>
                 <a href="11-productos.html?id=prod-04">
-                    <img src="../Img/sala/sofa.jpg" alt="Sofá Modular Atlas">
+                    <img src="../Img/sala/sofa atlas.png" alt="Sofá Modular Atlas">
                     <h3>Sofá Modular Atlas</h3>
                     <p>Sofá modular beige de 3 plazas con cojines.</p>
                     <p>Desde S/699 - 5 colores</p>
@@ -176,7 +164,7 @@
 
             <article>
                 <a href="11-productos.html?id=prod-05">
-                    <img src="../Img/sala/mesa centro nordica .png" alt="Mesa Centro Nórdica">
+                    <img src="../Img/sala/mesa centro nordica.png" alt="Mesa Centro Nórdica">
                     <h3>Mesa Centro Nórdica</h3>
                     <p>Mesa de centro de madera con acabado natural.</p>
                     <p>Desde S/129 - Envío 48h</p>
@@ -185,57 +173,13 @@
 
             <article>
                 <a href="11-productos.html?id=prod-06">
-                    <img src="../Img/dormitorio/cama tapizada oslo.png" alt="Cama Tapizada Oslo">
+                    <img src="../Img/dormitorio/cama oslo.png" alt="Cama Tapizada Oslo">
                     <h3>Cama Tapizada Oslo</h3>
                     <p>Cama matrimonial con cabecera tapizada gris.</p>
                     <p>Desde S/389 - Con base</p>
                 </a>
             </article>
         </div>
-    </section>
-
-    <section id="colecciones">
-        <h2>Colecciones</h2>
-        <div class="carrusel-categorias">
-        <button class="flecha" id="anterior-1">&#10094;</button>
-        <div class="contenedor-productos" id="carrusel-clc">
-            <a href="">
-                <img src="../Img/Cat&Col/minimalista.jpg" alt="Minimalista">
-                <h3>Minimalista</h3>
-            </a>
-
-            <a href="">
-                <img src="../Img/Cat&Col/clasico.webp" alt="Clásico">
-                <h3>Clásico</h3>
-            </a>
-
-            <a href="">
-                <img src="../Img/Cat&Col/nordico.jpg" alt="Nórdico">
-                <h3>Nórdico</h3>
-            </a>
-
-            <a href="">
-                <img src="../Img/Cat&Col/japandi.webp" alt="Japandi">
-                <h3>Japandi</h3>
-            </a>
-
-            <a href="">
-                <img src="../Img/Cat&Col/industrial.jpg" alt="Industrial">
-                <h3>Industrial</h3>
-            </a>
-
-            <a href="">
-                <img src="../Img/Cat&Col/moderno.jpg" alt="Moderna">
-                <h3>Moderna</h3>
-            </a>
-
-            <a href="">
-                <img src="../Img/Cat&Col/rustico.webp" alt="Rústica">
-                <h3>Rústica</h3>
-            </a>
-        </div>
-        <button class="flecha" id="siguiente-1">&#10095;</button>
-    </div>
     </section>
 
     <footer class="bg-dark text-white mt-5">
@@ -276,7 +220,27 @@
         </div>
     </footer>
     <script src="../JS/productos.js"></script>
-    <script src="../JS/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    const carrusel = document.getElementById("carrusel-ctg");
+    const btnAnterior = document.getElementById("anterior");
+    const btnSiguiente = document.getElementById("siguiente");
+    btnSiguiente.addEventListener("click", function(){
+        if(carrusel.scrollLeft + carrusel.clientWidth >= carrusel.scrollWidth - 10){
+            carrusel.scrollLeft = 0;
+        }
+        else{
+            carrusel.scrollLeft += 270;
+        }
+    });
+    btnAnterior.addEventListener("click", function(){
+        if(carrusel.scrollLeft <= 0){
+        carrusel.scrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
+        }
+        else{
+            carrusel.scrollLeft -= 270;
+        }
+    });
+    </script>
 </body>
 </html>

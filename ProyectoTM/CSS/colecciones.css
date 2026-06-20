@@ -1,0 +1,154 @@
+:root{
+    --primary:#7b5637;
+    --light:#f8f5f1;
+}
+body{
+    background:#faf8f5;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/*NAV*/
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+
+/*TITULO*/
+.hero-title{
+    text-align:center;
+    padding:60px 20px;
+}
+.hero-title h1{
+    font-size:4rem;
+    font-family:Georgia, serif;
+}
+.line{
+    width:70px;
+    height:3px;
+    background:var(--primary);
+    margin:20px auto;
+}
+
+/*SHOWROOM*/
+.showroom{
+    display:flex;
+    height:650px;
+    overflow:hidden;
+}
+.panel{
+    flex:1;
+    position:relative;
+    background-size:cover;
+    background-position:center;
+    transition:.6s ease;
+    cursor:pointer;
+}
+.panel:hover,.panel.active{
+    flex:4;
+}
+.overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+    rgba(0,0,0,.1),
+    rgba(0,0,0,.6)
+    );
+    display:flex;
+    align-items:flex-end;
+}
+.content{
+    color:white;
+    padding:40px;
+    opacity:0;
+    transform:translateY(40px);
+    transition:.4s;
+}
+.panel:hover .content,.panel.active .content{
+    opacity:1;
+    transform:translateY(0);
+}
+.content span{
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+.content h2{
+    font-size:3rem;
+    font-weight:700;
+}
+.btn-show{
+    border:none;
+    background:white;
+    color:var(--primary);
+    padding:12px 24px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+/*PRODUCTOS*/
+.collection-title{
+    margin-bottom:30px;
+    color:var(--primary);
+}
+.product-card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+.product-card:hover{
+    transform:translateY(-8px);
+}
+.product-card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+}
+.product-info{
+    padding:15px;
+}
+.product-info span{
+    color:var(--primary);
+    font-weight:700;
+}
+
+/*FOOTER*/
+footer{
+    margin-top:80px;
+}
+footer h5{
+    margin-bottom:18px;
+    font-weight:700;
+}
+footer p{
+    margin-bottom:10px;
+    color:#ddd;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+/*MOBILE*/
+@media(max-width:992px){
+    .showroom{
+        flex-direction:column;
+        height:auto;
+    }
+    .container.py-5 .collapse{
+        display:block !important;
+    }   
+    .panel{
+        height:250px;
+    }
+    .panel:hover{
+        flex:1;
+    }
+    .content{
+        opacity:1;
+        transform:none;
+    }
+    .hero-title h1{
+        font-size:2.5rem;
+    }
+}
