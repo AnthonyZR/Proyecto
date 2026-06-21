@@ -177,11 +177,9 @@ const productos = [
     descripcion: "Organizador práctico para mantener el baño ordenado.",
     material: "Madera MDF",
     color: "Blanco",
-    dimensiones: "60 x 25 x 120 cm"
-    },
+    dimensiones: "60 x 25 x 120 cm"},
     
-    {
-    id: "prod-19",
+    {id: "prod-19",
     nombre: "Set de Terraza Bali",
     precio: 599,
     categoria: "Exterior",
@@ -189,11 +187,9 @@ const productos = [
     descripcion: "Mesa de centro y 2 sillones de ratán sintético con cojines rectangulares.",
     material: "Ratán sintético y aluminio",
     color: "Marrón",
-    dimensiones: "120 x 70 x 75 cm"
-    },
+    dimensiones: "120 x 70 x 75 cm"},
 
-    {
-    id: "prod-20",
+    {id: "prod-20",
     nombre: "Silla Reclinable Premium",
     precio: 299,
     categoria: "Exterior",
@@ -201,11 +197,9 @@ const productos = [
     descripcion: "Tumbona de madera teca con posiciones ajustables para piscina.",
     material: "Madera teca",
     color: "Natural",
-    dimensiones: "190 x 65 x 35 cm"
-    },
+    dimensiones: "190 x 65 x 35 cm"},
 
-    {
-    id: "prod-21",
+    {id: "prod-21",
     nombre: "Sombrilla Excéntrica",
     precio: 349,
     categoria: "Exterior",
@@ -213,11 +207,9 @@ const productos = [
     descripcion: "Sombrilla de 3 metros con base pesada y protección UV +50.",
     material: "Aluminio y poliéster",
     color: "Beige",
-    dimensiones: "300 x 300 cm"
-    },
+    dimensiones: "300 x 300 cm"},
 
-    {
-    id: "prod-22",
+    {id: "prod-22",
     nombre: "Estantería Modular Kob",
     precio: 249,
     categoria: "Almacenamiento",
@@ -225,11 +217,9 @@ const productos = [
     descripcion: "Librero de 5 niveles estilo industrial en madera y metal.",
     material: "Madera y metal",
     color: "Roble oscuro",
-    dimensiones: "80 x 35 x 180 cm"
-    },
+    dimensiones: "80 x 35 x 180 cm"},
 
-    {
-    id: "prod-23",
+    {id: "prod-23",
     nombre: "Aparador Scandi",
     precio: 450,
     categoria: "Almacenamiento",
@@ -237,11 +227,9 @@ const productos = [
     descripcion: "Mueble buffet con 3 cajones y puertas corredizas.",
     material: "Madera maciza",
     color: "Natural",
-    dimensiones: "120 x 40 x 85 cm"
-    },
+    dimensiones: "120 x 40 x 85 cm"},
 
-    {
-    id: "prod-24",
+    {id: "prod-24",
     nombre: "Baúl Organizador Loft",
     precio: 189,
     categoria: "Almacenamiento",
@@ -249,11 +237,9 @@ const productos = [
     descripcion: "Banqueta baúl tapizada en lino gris para pie de cama.",
     material: "Lino y madera",
     color: "Gris",
-    dimensiones: "90 x 40 x 45 cm"
-    },
+    dimensiones: "90 x 40 x 45 cm"},
 
-    {
-    id: "prod-25",
+    {id: "prod-25",
     nombre: "Lámpara de Pie Aurora",
     precio: 119,
     categoria: "Iluminación",
@@ -261,11 +247,9 @@ const productos = [
     descripcion: "Lámpara de pie con luz cálida ideal para salas y espacios de lectura.",
     material: "Metal y tela",
     color: "Negro",
-    dimensiones: "160 x 40 cm"
-    },
+    dimensiones: "160 x 40 cm"},
 
-    {
-    id: "prod-26",
+    {id: "prod-26",
     nombre: "Lámpara de Mesa Luna",
     precio: 49,
     categoria: "Iluminación",
@@ -273,11 +257,9 @@ const productos = [
     descripcion: "Lámpara de mesa compacta perfecta para escritorios y mesas de noche.",
     material: "Metal y vidrio",
     color: "Blanco",
-    dimensiones: "45 x 20 cm"
-    },
+    dimensiones: "45 x 20 cm"},
 
-    {
-    id: "prod-27",
+    {id: "prod-27",
     nombre: "Lámpara Colgante Nova",
     precio: 59,
     categoria: "Iluminación",
@@ -285,46 +267,43 @@ const productos = [
     descripcion: "Lámpara colgante moderna para comedores y salas.",
     material: "Metal",
     color: "Negro mate",
-    dimensiones: "35 x 35 cm"
-    },
+    dimensiones: "35 x 35 cm"},
 
-    {
-    id: "prod-28",
+    {id: "prod-28",
     nombre: "Sofá Seccional Minimalista Serene Comfort",
     precio: 3499,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa serene.png",
     descripcion: "Sofá de líneas bajas con extensión chaise longue derecha, diseñado para salas amplias y minimalistas",
     material: "Estructura interna de madera maciza y tapizado en tela texturizada de lino premium",
     color: "Beige arena",
-    dimensiones: "3.20 m x 1.05 m x 1.75 m x 0.42 m"
-    },
+    dimensiones: "3.20 x 1.05 x 1.75 x 0.42 m"},
 
     {id: "prod-29",
     nombre: "Set de Mesas de Centro Nido Double Eclipse",
     precio: 849,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/mesas centro nido.png",
     descripcion: "Juego de mesas nido circulares y orgánicas que se superponen para optimizar el espacio de la sala",
     material: "Madera maciza y MDF enchapado con acabado lacado semi-mate",
     color: "Madera natural clara / Roble escandinavo",
-    dimensiones: "90 cm x 38 cm | 70 cm x 32 cm"},
+    dimensiones: "90 x 38 cm | 70 x 32 cm"},
     
     {id: "prod-30",
     nombre: "Lámpara Colgante en Cascada Sphere Breeze",
     precio: 549,
     categoria: "Iluminación",
-    imagen: " ",
+    imagen: "../Img/iluminacion/lampara colgante cascada.png",
     descripcion: "Set de luminarias en cascada con diseño de esferas orgánicas distribuidas a diferentes alturas",
     material: "Pantallas de papel de arroz japonés y base metálica con cables ajustables",
     color: "Blanco marfil",
-    dimensiones: " Esferas: 25 cm x 30 cm x 35 cm | Caída ajustable max. 1.60 m"},
+    dimensiones: " Esferas: 25 x 30 x 35 cm | Caída ajustable max. 1.60 m"},
     
     {id: "prod-31",
     nombre: "Aparador Horizon Pure",
     precio: 1399,
     categoria: "Almacenamiento",
-    imagen: " ",
+    imagen: "../Img/sala/mesa horizon pure.png",
     descripcion: "Aparador premium de perfil bajo y líneas puras con almacenamiento oculto mediante sistema push-to-open",
     material: "Madera de roble claro y MDF lacado satinado",
     color: "Blanco puro y madera natural",
@@ -334,7 +313,7 @@ const productos = [
     nombre: "Sofá Seccional Aura",
     precio: 4299,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa aura.png",
     descripcion: "Sofá de alta gama con un innovador diseño orgánico de líneas curvas y envolventes que maximizan el confort",
     material: "Estructura interna de madera maciza reforzada y tapizado en tela texturizada premium de alta resistencia",
     color: "Blanco tiza / Marfil natural",
@@ -344,7 +323,7 @@ const productos = [
     nombre: "Mesas de Centro Terra",
     precio: 1149,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/mesas centro terra.png",
     descripcion: "Set de dos mesas auxiliares circulares con bloques macizos de vetas pronunciadas que aportan calidez natural",
     material: "Madera maciza con acabado laqueado protector semi-mate resistente a la humedad",
     color: "Madera nogal / Tonos terrosos naturales",
@@ -354,7 +333,7 @@ const productos = [
     nombre: "Librero de Arco Heritage",
     precio: 2499,
     categoria: "Almacenamiento",
-    imagen: " ",
+    imagen: "../Img/almacenamiento/librero arco heritage.png",
     descripcion: "Estructura arquitectónica empotrada con diseño de arco clásico superior y repisas abiertas para exhibición elegante",
     material: "Placas de MDF enchapadas en madera natural de alta densidad y zócalos de madera maciza",
     color: "Marrón roble / Madera natural",
@@ -364,7 +343,7 @@ const productos = [
     nombre: "Butaca de Acento Cosy",
     precio: 899,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/butaca redondeada.png",
     descripcion: "Sillón individual de base baja y espaldar curvo ergonómico, ideal como pieza de acento para cerrar espacios de sala",
     material: "Estructura de madera contrachapada termoformada y tapizado en tela bouclé o algodón texturizado",
     color: "Marrón chocolate / Café texturizado",
@@ -374,7 +353,7 @@ const productos = [
     nombre: "Sofá Seccional Nordic Grey",
     precio: 3699,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa nordic grey.png",
     descripcion: "Sofá esquinero de líneas rectas contemporáneas con cojines mullidos, ideal para salas de estar familiares",
     material: "Estructura interna de madera maciza, patas de madera clara y tapizado en tela texturizada de alto tránsito",
     color: "Gris cemento / Gris claro",
@@ -384,7 +363,7 @@ const productos = [
     nombre: "Banquetas de Barra Scandi Wood (Set x2)",
     precio: 499,
     categoria: "Comedor",
-    imagen: " ",
+    imagen: "../Img/comedor/banquetas de barra.png",
     descripcion: "Par de taburetes altos de diseño minimalista, perfectos para islas de cocina o barras de comedor",
     material: "Estructura de acero lacado y asiento ergonómico de madera maciza.",
     color: "Blanco puro con madera natural",
@@ -394,7 +373,7 @@ const productos = [
     nombre: "Mesa de Centro Minimal Cross",
     precio: 649,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/mesa centro cross.png",
     descripcion: "Mesa de centro ligera de perfil bajo con base angular que optimiza la sensación de amplitud en la sala",
     material: "Superficie de MDF de alta densidad con acabado en poliuretano mate y patas de madera estructural",
     color: "Blanco satinado y madera clara",
@@ -404,7 +383,7 @@ const productos = [
     nombre: "Espejos Verticales Infinity Frame (Set x3)",
     precio: 599,
     categoria: "Decoración",
-    imagen: " ",
+    imagen: "../Img/decoracion/espejos verticales infinity.png",
     descripcion: "Set de tres espejos de cuerpo entero diseñados para colgarse en serie y duplicar la luminosidad del espacio",
     material: "Cristal premium de alta definición con marco de aluminio extruido ultra delgado",
     color: "Marco negro mate",
@@ -414,7 +393,7 @@ const productos = [
     nombre: "Sofá Bouclé Wave",
     precio: 4899,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa organico.png",
     descripcion: "Sofá con zócalo bajo de madera y tapizado texturizado premium",
     material: "Estructura interna de madera maciza, base expuesta de roble natural y tapizado en tela bouclé",
     color: "Blanco roto / Marfil",
@@ -424,7 +403,7 @@ const productos = [
     nombre: "Aparador Bajo Kyoto Linear",
     precio: 1899,
     categoria: "Almacenamiento",
-    imagen: " ",
+    imagen: "../Img/almacenamiento/consola kyoto.png",
     descripcion: "Mueble de almacenamiento lineal y perfil bajo con frentes contrastantes y sistemas de apertura táctil",
     material: "Estructura de MDF de alta densidad enchapada en madera oscura y frentes lacados mate",
     color: "Negro ébano combinado con paneles crema",
@@ -434,7 +413,7 @@ const productos = [
     nombre: "Mesas Nido Zen Timber (Set x3)",
     precio: 1299,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/mesa centro zen.png",
     descripcion: "Juego de tres mesas bajas auxiliares de formas orgánicas asimétricas que celebran la estética wabi-sabi",
     material: "Madera de roble macizo con tratamiento texturizado mate de alta resistencia",
     color: "Madera natural tostada",
@@ -444,7 +423,7 @@ const productos = [
     nombre: "Óleo Abstracto Earth Textures",
     precio: 450,
     categoria: "Decoración",
-    imagen: " ",
+    imagen: "../Img/decoracion/cuadro abstracto earth.png",
     descripcion: "Lienzo artístico de formato horizontal con texturas visuales densas en tonos tierra que unifica el entorno",
     material: "Pintura acrílica texturizada sobre lienzo canvas de algodón montado en bastidor de madera.",
     color: "Paleta de marrón café, terracota, ocre y beige",
@@ -454,7 +433,7 @@ const productos = [
     nombre: "Sofá Seccional Brooklyn",
     precio: 3999,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa brooklyn.png",
     descripcion: "Amplio sofá seccional de diseño lineal contemporáneo con patas de madera inclinadas, ideal para salones de concepto abierto",
     material: "Estructura de madera maciza y tapizado en tela de lino grueso texturizado de alta resistencia",
     color: "Azul noche / Azul marino",
@@ -464,7 +443,7 @@ const productos = [
     nombre: "Sillón de Acento Chester Leather",
     precio: 1149,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sillon chester.png",
     descripcion: "Sillón individual clásico de silueta robusta y brazos redondeados, perfecto para añadir carácter e historia al espacio",
     material: "Estructura de madera tratada y tapizado en cuero genuino envejecido con costuras reforzadas",
     color: "Marrón gastado / Tabaco",
@@ -474,7 +453,7 @@ const productos = [
     nombre: "Lámpara Colgante Amber Glow",
     precio: 289,
     categoria: "Iluminación",
-    imagen: " ",
+    imagen: "../Img/iluminacion/lampara amber glow.png",
     descripcion: "Luminaria suspendida con pantalla de vidrio soplado translúcido que aporta una luz cálida, ambiental y muy acogedora",
     material: "Pantalla de vidrio tonalizado y base de sujeción metálica en color negro con cable regulable",
     color: "Ámbar degradado / Anaranjado traslúcido",
@@ -484,7 +463,7 @@ const productos = [
     nombre: "Alfombra de Piel Natural Nordic Fur",
     precio: 450,
     categoria: "Decoración",
-    imagen: " ",
+    imagen: "../Img/decoracion/alfombra piel.png",
     descripcion: "Alfombra decorativa de silueta orgánica irregular que rompe la rigidez del suelo de concreto aportando textura y calidez",
     material: "Piel natural seleccionada y procesada con reverso antideslizante de alta durabilidad",
     color: "Beige claro / Crema natural con matices sutiles",
@@ -494,7 +473,7 @@ const productos = [
     nombre: "Sofá Seccional Luxor Beige",
     precio: 4599,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa luxor.png",
     descripcion: "Sofá esquinero de gran formato y perfil bajo, diseñado con líneas ortogonales puras y mullidos cojines para el máximo confort",
     material: "Estructura interna reforzada y tapizado en tela de microfibra premium de alta suavidad y fácil limpieza",
     color: "Crema / Beige claro",
@@ -504,7 +483,7 @@ const productos = [
     nombre: "Centro de Entretenimiento Mármol & Walnut",
     precio: 2899,
     categoria: "Almacenamiento",
-    imagen: " ",
+    imagen: "../Img/almacenamiento/cde m&w.png",
     descripcion: "Sistema flotante modular de largo extendido con cajonería baja unificada y panel posterior arquitectónico retroiluminado",
     material: "Estructura de MDF enchapado en madera de nogal, frentes lacados y paneles con acabado tipo mármol calacatta",
     color: "Marrón nogal, blanco veteado y crema",
@@ -514,7 +493,7 @@ const productos = [
     nombre: "Mesa de Centro Monolith",
     precio: 1499,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/mesa centro monolith.png",
     descripcion: "Mesa de centro rectangular de formato bajo y volumétrico con superficie reflectante que duplica la sofisticación del espacio",
     material: "Estructura sólida de madera con revestimiento exterior de vidrio templado ahumado de alta resistencia",
     color: "Gris grafito espejado / Bronce oscuro",
@@ -524,7 +503,7 @@ const productos = [
     nombre: "Set de Jarrones Zafiro (x3)",
     precio: 249,
     categoria: "Decoración",
-    imagen: " ",
+    imagen: "../Img/decoracion/jarrones zafiro.png",
     descripcion: "Conjunto de tres vasijas ornamentales de siluetas estilizadas y orgánicas perfectas para repisas o consolas modernas",
     material: "Cerámica vitrificada moldeada a mano con acabado esmaltado mate satinado",
     color: "Gris asfalto / Bronce metalizado",
@@ -534,7 +513,7 @@ const productos = [
     nombre: "Sofá Seccional Envolvente Aspen",
     precio: 5499,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/sofa aspen.png",
     descripcion: "Sofá esquinero de máxima capacidad en formato, diseñado con un perfil robusto y cojines extra confortables para climas cálidos y acogedores",
     material: "Estructura interna de madera maciza y tapizado en tela texturizada de chenille o tweed de alta densidad",
     color: "Gris pardo / Taupe texturizado",
@@ -544,7 +523,7 @@ const productos = [
     nombre: "Araña de Techo Candelabro Medieval Ring",
     precio: 1899,
     categoria: "Iluminación",
-    imagen: " ",
+    imagen: "../Img/iluminacion/candelabro mediaval.png",
     descripcion: "Imponente luminaria colgante de formato circular con múltiples puntos de luz expuestos que simulan velas tradicionales, ideal para techos altos",
     material: "Estructura circular de hierro forjado con acabado pavonado y cadenas de suspensión reforzadas",
     color: "Negro hierro / Grafito oscuro",
@@ -554,7 +533,7 @@ const productos = [
     nombre: "Ramas Escultóricas Forest Birch (Set x3)",
     precio: 189,
     categoria: "Decoración",
-    imagen: " ",
+    imagen: "../Img/decoracion/ramas forest.png",
     descripcion: "Conjunto de troncos y ramas delgadas seleccionadas para colocar de pie en esquinas o repisas, aportando un toque natural y campestre",
     material: "Madera natural de abedul tratada y curada para conservación en interiores",
     color: "Blanco corteza / Gris natural",
@@ -564,30 +543,11 @@ const productos = [
     nombre: "Mesa de Centro Maciza Alps",
     precio: 1399,
     categoria: "Sala",
-    imagen: " ",
+    imagen: "../Img/sala/mesa centro alps.png",
     descripcion: "Mesa de centro rectangular baja fabricada a partir de un tablón robusto que expone la belleza e imperfección de la madera natural",
     material: "Madera maciza de pino o roble rústico con acabado protector mate contra manchas y humedad",
     color: "Madera natural envejecida",
     dimensiones: "1.40 x 0.80 x 0.35 m"},
     
-    
-    
-    
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ];

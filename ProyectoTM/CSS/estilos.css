@@ -6,10 +6,11 @@ body{
 
 /* CONTENIDO */
 section h2{
-    color: black;
+    color: #7b5637;
     text-align:center;
     margin-bottom:10px;
     padding-top: 5%;
+    font-weight: bold;
 }
 
 /* Banner */
@@ -43,6 +44,22 @@ section h2{
 .navbar-toggler:focus{
     box-shadow: none;
     border: none;
+}
+.navbar-nav {
+    gap: 20px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+.navbar .nav-link {
+    color: #555 !important;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.navbar .nav-link:hover {
+    color: #7b5637 !important;
+    border-bottom: 2px solid #7b5637;
 }
 
 /* CATEGORÍAS */
