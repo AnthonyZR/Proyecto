@@ -89,6 +89,11 @@ body{
     margin-bottom:30px;
     color:var(--primary);
 }
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 .product-card{
     background:white;
     border-radius:15px;
