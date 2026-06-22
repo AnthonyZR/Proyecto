@@ -3,66 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almacenamiento - Tienda de Muebles</title>
-    <link rel="stylesheet" href="../CSS/exterior.css">
+    <title>Almacenamiento | TdM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/8-9-10.css">
 </head>
 <body>
-    <header class="encabezado">
-        <h1>Tienda de muebles</h1>
-        <nav class="menu-superior">
-            <ul>
-                <li><a href="01-principal.html">Inicio</a></li>
-                <li class="desplegable">
-                    <a href="">Categorías ⌵</a>
-                    <ul class="submenu">
-                        <li><a href="02-sala.html">Sala</a></li>
-                        <li><a href="03-dormitorio.html">Dormitorio</a></li>
-                        <li><a href="04-oficina.html">Oficina</a></li>
-                        <li><a href="05-comedor.html">Comedor</a></li>
-                        <li><a href="06-baño.html">Baño</a></li>
-                        <li><a href="07-decoracion.html">Decoración</a></li>
-                        <li><a href="08-iluminacion.html">Iluminación</a></li>
-                        <li><a href="09-almacenamiento.html">Almacenamiento</a></li>
-                        <li><a href="10-exterior.html">Exterior</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm sticky-top" style="background-color: #F3F0E6;">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="01-principal.html">Tienda de muebles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown">Categorías</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="02-sala.html">Sala</a></li>
+                        <li><a class="dropdown-item" href="03-dormitorio.html">Dormitorio</a></li>
+                        <li><a class="dropdown-item" href="04-oficina.html">Oficina</a></li>
+                        <li><a class="dropdown-item" href="05-comedor.html">Comedor</a></li>
+                        <li><a class="dropdown-item" href="06-baño.html">Baño</a></li>
+                        <li><a class="dropdown-item" href="07-decoracion.html">Decoración</a></li>
+                        <li><a class="dropdown-item" href="08-iluminacion.html">Iluminación</a></li>
+                        <li><a class="dropdown-item" href="09-almacenamiento.html">Almacenamiento</a></li>
+                        <li><a class="dropdown-item" href="10-exterior.html">Exterior</a></li>
                     </ul>
                 </li>
-                <li class="desplegable">
-                    <a href="">Colecciones ⌵</a>
-                    <ul class="submenu">
-                        <li><a href="">Minimalista</a></li>
-                        <li><a href="">Nórdica</a></li>
-                        <li><a href="">Industrial</a></li>
-                        <li><a href="">Moderna</a></li>
-                    </ul>
+               <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="12-colecciones.html">Colecciones</a>
                 </li>
-                <li><a href="">Ofertas</a></li>
-                <li><a href="">Lo más vendido</a></li>
-                <li class="desplegable">
-                    <a href="">Nosotros ⌵</a>
-                    <ul class="submenu">
-                        <li><a href="nosotros.html">Quiénes somos</a></li>
-                        <li><a href="envios.html">Envíos</a></li>
-                        <li><a href="devoluciones.html">Devoluciones</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="01-principal.html#ofertas">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="01-principal.html#mas-vendidos">Lo más vendido</a>
                 </li>
             </ul>
-        </nav>
-        <form>
-            <input type="text" placeholder="Buscar">
+        <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Buscar">
         </form>
-    </header>
+    </div>
+    </div>
+    </nav>
 
     <main>
-        <!-- contenedor principal para alinear filtros a la izquierda y productos a la derecha -->
         <div class="contenedor-principal">
             
             <aside class="panel-filtros">
                 <div class="encabezado-filtros">
                     <h3>FILTRAR POR</h3>
-                    <span class="icono-filtro">⚙️</span>
                 </div>
                 <div class="grupo-filtro">
-                    <h4>Tipo de producto <span>^</span></h4>
+                    <h4>Tipo de producto</h4>
                     <label><input type="checkbox"> Estanterías</label>
                     <label><input type="checkbox"> Aparadores</label>
                     <label><input type="checkbox"> Baúles</label>
@@ -92,10 +89,10 @@
                 <hr class="divisor-filtro">
                 <div class="grupo-filtro">
                     <h4>Precio</h4>
-                    <input type="range" min="100" max="800" value="500" class="control-precio">
+                    <input type="range" min="100" max="800" value="100" class="control-precio">
                     <div class="rango-valores">
                         <span>S/ 100</span>
-                        <span>S/ 800+</span>
+                        <span>S/ 900+</span>
                     </div>
                 </div>
                 <div class="acciones-filtros">
@@ -104,70 +101,95 @@
                 </div>
             </aside>
 
-            <!-- La sección de productos va segundo para alinearse a la derecha -->
-            <section id="almacenamiento-productos">
+            <section id="exterior-productos">
                 <h2>Categoría: Almacenamiento</h2>
                 <div class="contenedor-productos">
                     <article>
-                        <a href="11-productos.html?id=prod-22">
+                        <a href="11-productos.html?id=prod-25">
                             <img src="../Img/almacenamiento/estanteria modular kob.jpg" alt="Estantería Modular Kob">
-                            <h3>Estantería Modular Kob</h3>
-                            <p>Librero de 5 niveles estilo industrial en madera y metal.</p>
-                            <p>Desde S/249 - Alta resistencia</p>
+                            <h3>Estantería modular Kob</h3>
+                            <p>Desde S/ 249</p>
                         </a>
                     </article>
                     <article>
-                        <a href="11-productos.html?id=prod-23">
+                        <a href="11-productos.html?id=prod-26">
                             <img src="../Img/almacenamiento/aparador scandi.jpg" alt="Aparador Scandi">
                             <h3>Aparador Scandi</h3>
-                            <p>Mueble buffet con 3 cajones y puertas corredizas.</p>
-                            <p>Desde S/450 - Madera maciza</p>
+                            <p>S/ 450</p>
                         </a>
                     </article>
                     <article>
-                        <a href="11-productos.html?id=prod-24">
+                        <a href="11-productos.html?id=prod-27">
                             <img src="../Img/almacenamiento/Baúl Organizador.jpg" alt="Baúl Organizador">
                             <h3>Baúl Organizador Loft</h3>
-                            <p>Banqueta baúl tapizada en lino gris para pie de cama.</p>
-                            <p>Desde S/189 - Doble función</p>
+                            <p>S/ 189</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="11-productos.html?id=prod-59">
+                            <img src="https://visso.com.pe/wp-content/uploads/2023/02/credenza-larga.jpg" alt="Credenza Doble con Puertas">
+                            <h3>Credenza Doble con Puertas</h3>
+                            <p>S/ 999</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="11-productos.html?id=prod-60">
+                            <img src="https://promart.vteximg.com.br/arquivos/ids/8380628-1000-1000/144766.jpg?v=638665225704170000" alt="Estante London 150cm Maple Metal Orange">
+                            <h3>Estante London Maple</h3>
+                            <p>S/ 329.99</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="11-productos.html?id=prod-61">
+                            <img src="https://fritecsa.com.pe/wp-content/uploads/2022/10/estante-epoxico-tipo-rejilla.webp" alt="Estante Epóxico De 04 Niveles Tipo Rejilla">
+                            <h3>Estante Epóxico De 04 Niveles Tipo Rejilla</h3>
+                            <p>S/ 800</p>
                         </a>
                     </article>
                 </div>
             </section>
-
-        </div> <!-- Cierre del contenedor principal -->
+        </div>
     </main>
-
-    <footer class="pie-pagina">
-        <div>
-            <h3>Ayuda</h3>
-            <ul>
-                <li><a href="atencion-cliente.html">Atención al cliente</a></li>
-                <li><a href="devoluciones.html">Devoluciones</a></li>
-                <li><a href="envios.html">Información de envíos</a></li>
-            </ul>
+    
+    <footer class="text-white mt-5">
+        <div class="container py-4">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5>Empresa</h5>
+                    <a href=""><p>Quiénes somos</p></a>
+                    <a href=""><p>Trabaja con nosotros</p></a>
+                    <a href=""><p>Política de privacidad</p></a>
+                    <a href=""><p>Términos y condiciones</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Atención al cliente</h5>
+                    <a href=""><p>Preguntas frecuentes</p></a>
+                    <a href=""><p>Métodos de pago</p></a>
+                    <a href=""><p>Envíos</p></a>
+                    <a href=""><p>Devoluciones</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="fs-3">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook me-3"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram me-3"></i></a>
+                        <a href="https://www.tiktok.com/" target="_blank"><i class="bi bi-tiktok me-3"></i></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp me-3"></i></a>
+                        <a href="https://www.x.com/" target="_blank"><i class="bi bi-twitter-x me-3"></i></a>
+                        
+                    </div>
+                    <hr>
+                    <p>Suscríbete para recibir nuevas ofertas y colecciones.</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Correo electrónico">
+                        <button type="button" class="btn btn-light">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center mb-0">© 2026 Tienda de Muebles. Todos los derechos reservados.</p>
         </div>
-        <div>
-            <h3>Empresa</h3>
-            <ul>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Síguenos</h3>
-            <a href="https://instagram.com" target="_blank">
-                <img src="../Img/Redes sociales/ig.png" alt="Instagram"> Instagram
-            </a>
-            <a href="https://facebook.com" target="_blank">
-                <img src="../Img/Redes sociales/fb.png" alt="Facebook"> Facebook
-            </a>
-            <a href="https://telegram.org" target="_blank">
-                <img src="../Img/Redes sociales/tt.png" alt="TikTok"> TikTok
-            </a>
-        </div>
-        <hr>
-        <p>© 2026 Tienda de Muebles. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

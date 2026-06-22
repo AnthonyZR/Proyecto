@@ -3,87 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exterior - Tienda de Muebles</title>
-    <link rel="stylesheet" href="../CSS/exterior.css">
+    <title>Exterior | TdM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../CSS/8-9-10.css">
 </head>
 <body>
-    <header class="encabezado">
-        <h1>Tienda de muebles</h1>
-        <nav class="menu-superior">
-            <ul>
-                <li><a href="01-principal.html">Inicio</a></li>
-                <li class="desplegable">
-                    <a href="#">Categorías ⌵</a>
-                    <ul class="submenu">
-                        <li><a href="02-sala.html">Sala</a></li>
-                        <li><a href="03-dormitorio.html">Dormitorio</a></li>
-                        <li><a href="04-oficina.html">Oficina</a></li>
-                        <li><a href="05-comedor.html">Comedor</a></li>
-                        <li><a href="06-baño.html">Baño</a></li>
-                        <li><a href="07-decoracion.html">Decoración</a></li>
-                        <li><a href="08-iluminacion.html">Iluminación</a></li>
-                        <li><a href="09-almacenamiento.html">Almacenamiento</a></li>
-                        <li><a href="10-exterior.html">Exterior</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm sticky-top" style="background-color: #F3F0E6;">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="01-principal.html">Tienda de muebles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown">Categorías</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="02-sala.html">Sala</a></li>
+                        <li><a class="dropdown-item" href="03-dormitorio.html">Dormitorio</a></li>
+                        <li><a class="dropdown-item" href="04-oficina.html">Oficina</a></li>
+                        <li><a class="dropdown-item" href="05-comedor.html">Comedor</a></li>
+                        <li><a class="dropdown-item" href="06-baño.html">Baño</a></li>
+                        <li><a class="dropdown-item" href="07-decoracion.html">Decoración</a></li>
+                        <li><a class="dropdown-item" href="08-iluminacion.html">Iluminación</a></li>
+                        <li><a class="dropdown-item" href="09-almacenamiento.html">Almacenamiento</a></li>
+                        <li><a class="dropdown-item" href="10-exterior.html">Exterior</a></li>
                     </ul>
                 </li>
-                <li class="desplegable">
-                    <a href="#">Colecciones ⌵</a>
-                    <ul class="submenu">
-                        <li><a href="#">Minimalista</a></li>
-                        <li><a href="#">Nórdica</a></li>
-                        <li><a href="#">Industrial</a></li>
-                        <li><a href="#">Moderna</a></li>
-                    </ul>
+               <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="12-colecciones.html">Colecciones</a>
                 </li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Lo más vendido</a></li>
-                <li class="desplegable">
-                    <a href="#">Nosotros ⌵</a>
-                    <ul class="submenu">
-                        <li><a href="nosotros.html">Quiénes somos</a></li>
-                        <li><a href="envios.html">Envíos</a></li>
-                        <li><a href="devoluciones.html">Devoluciones</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="01-principal.html#ofertas">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="01-principal.html#mas-vendidos">Lo más vendido</a>
                 </li>
             </ul>
-        </nav>
-        <form>
-            <input type="text" placeholder="Buscar">
+        <form class="d-flex">
+            <input class="form-control" type="search" placeholder="Buscar">
         </form>
-    </header>
+    </div>
+    </div>
+    </nav>
 
-    <!-- aca empieza el filtrar -->
     <main>
         <div class="contenedor-principal">
             <aside class="panel-filtros">
                 <div class="encabezado-filtros">
                     <h3>FILTRAR POR</h3>
-                    <span class="icono-filtro">⚙️</span>
                 </div>
                 <div class="grupo-filtro">
-                    <h4>Tipo de producto <span>^</span></h4>
-                    <label><input type="checkbox"> Estanterías</label>
-                    <label><input type="checkbox"> Aparadores</label>
-                    <label><input type="checkbox"> Baúles</label>
-                    <label><input type="checkbox"> Cajoneras</label>
-                    <label><input type="checkbox"> Armarios</label>
-                    <label><input type="checkbox"> Zapateras</label>
+                    <h4>Tipo de producto</h4>
+                    <label><input type="checkbox"> Juegos de terraza</label>
+                    <label><input type="checkbox"> Sillas de exterior</label>
+                    <label><input type="checkbox"> Mesas de jardín</label>
+                    <label><input type="checkbox"> Tumbonas</label>
+                    <label><input type="checkbox"> Sombrillas</label>
+                    <label><input type="checkbox"> Bancos de exterior</label>
                 </div>
                 <hr class="divisor-filtro">
                 <div class="grupo-filtro">
                     <h4>Material</h4>
+                    <label><input type="checkbox"> Ratán sintético</label>
                     <label><input type="checkbox"> Madera</label>
-                    <label><input type="checkbox"> Metal</label>
-                    <label><input type="checkbox"> Madera y metal</label>
-                    <label><input type="checkbox"> Tapizado</label>
+                    <label><input type="checkbox"> Aluminio</label>
+                    <label><input type="checkbox"> Acero</label>
+                    <label><input type="checkbox"> Plástico resistente</label>
+                    <label><input type="checkbox"> Textil impermeable</label>
                 </div>
                 <hr class="divisor-filtro">
                 <div class="grupo-filtro">
                     <h4>Color</h4>
                     <div class="contenedor-circulos">
-                        <span class="circulo-color" style="background-color: sienna;"></span>
+                        <span class="circulo-color" style="background-color: green;"></span>
                         <span class="circulo-color" style="background-color: peru;"></span>
-                        <span class="circulo-color" style="background-color: lightgray;"></span>
+                        <span class="circulo-color" style="background-color: beige;"></span>
                         <span class="circulo-color" style="background-color: black;"></span>
                         <span class="circulo-color" style="background-color: white; border: 1px solid silver;"></span>
                     </div>
@@ -91,10 +90,10 @@
                 <hr class="divisor-filtro">
                 <div class="grupo-filtro">
                     <h4>Precio</h4>
-                    <input type="range" min="100" max="800" value="500" class="control-precio">
+                    <input type="range" min="100" max="800" value="100" class="control-precio">
                     <div class="rango-valores">
                         <span>S/ 100</span>
-                        <span>S/ 800+</span>
+                        <span>S/ 900+</span>
                     </div>
                 </div>
                 <div class="acciones-filtros">
@@ -103,7 +102,6 @@
                 </div>
             </aside>
 
-            <!-- Tu sección existente de productos -->
             <section id="exterior-productos">
                 <h2>Categoría: Exterior</h2>
                 <div class="contenedor-productos">
@@ -111,24 +109,44 @@
                         <a href="11-productos.html?id=prod-19">
                             <img src="../Img/exterior/set de terraza bali.png" alt="Set de Terraza Bali">
                             <h3>Set de Terraza Bali</h3>
-                            <p>Mesa de centro y 2 sillones de ratán sintético con cojines rectangulares.</p>
-                            <p>Desde S/599 - Resistente al agua</p>
+                            <p>S/ 599</p>
                         </a>
                     </article>
                     <article>
                         <a href="11-productos.html?id=prod-20">
-                            <img src="../Img/exterior/silla revlinable premium.png" alt="Silla Reclinable Premium">
-                            <h3>Silla Reclinable Premium</h3>
-                            <p>Tumbona de madera teca con posiciones ajustables para piscina.</p>
-                            <p>Desde S/299 - Madera certificada</p>
+                            <img src="../Img/exterior/tumbona.png" alt="Tumbona para piscina">
+                            <h3>Tumbona para piscina</h3>
+                            <p>S/ 299</p>
                         </a>
                     </article>
                     <article>
                         <a href="11-productos.html?id=prod-21">
                             <img src="../Img/exterior/sombria EXCENTRICA.png" alt="Sombrilla Excéntrica">
                             <h3>Sombrilla Excéntrica</h3>
-                            <p>Sombrilla de 3 metros con base pesada y protección UV +50.</p>
-                            <p>Desde S/349 - Ángulo ajustable</p>
+                            <p>S/ 349</p>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="11-productos.html?id=prod-56">
+                            <img src="https://kulhaus.com/cdn/shop/files/J0600031NN15_2_1800x1800.jpg?v=1751911140" alt="Silla Con Cojín (Negra) Estructura De Aluminio">
+                            <h3>Silla Con Cojín y estructura de aluminio</h3>
+                            <p>S/399</p>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="11-productos.html?id=prod-57">
+                            <img src="https://media.falabella.com/sodimacPE/2711869C4_400/w=1200,h=1200,fit=pad" alt="Juego de Balcón - Mesa de vidrio Redonda 60 CM + 2 Sillas Ratan">
+                            <h3>Juego de balcón - Mesa de vidrio redonda + 2 Sillas Ratan</h3>
+                            <p>S/ 159.99</p>
+                        </a>
+                    </article>
+
+                    <article>
+                        <a href="11-productos.html?id=prod-58">
+                            <img src="https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_000634/tienda_000634_86d718a4db1629050ea18ba1e008c1cb8b1697b8_producto_large_90.jpg" alt="Silla One CB Gris Oscuro">
+                            <h3>Silla One CB</h3>
+                            <p>S/ 299</p>
                         </a>
                     </article>
                 </div>
@@ -136,36 +154,45 @@
         </div>
     </main>
 
-    <footer class="pie-pagina">
-        <div>
-            <h3>Ayuda</h3>
-            <ul>
-                <li><a href="atencion-cliente.html">Atención al cliente</a></li>
-                <li><a href="devoluciones.html">Devoluciones</a></li>
-                <li><a href="envios.html">Información de envíos</a></li>
-            </ul>
+    <footer class="text-white mt-5">
+        <div class="container py-4">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5>Empresa</h5>
+                    <a href=""><p>Quiénes somos</p></a>
+                    <a href=""><p>Trabaja con nosotros</p></a>
+                    <a href=""><p>Política de privacidad</p></a>
+                    <a href=""><p>Términos y condiciones</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Atención al cliente</h5>
+                    <a href=""><p>Preguntas frecuentes</p></a>
+                    <a href=""><p>Métodos de pago</p></a>
+                    <a href=""><p>Envíos</p></a>
+                    <a href=""><p>Devoluciones</p></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="fs-3">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook me-3"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram me-3"></i></a>
+                        <a href="https://www.tiktok.com/" target="_blank"><i class="bi bi-tiktok me-3"></i></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp me-3"></i></a>
+                        <a href="https://www.x.com/" target="_blank"><i class="bi bi-twitter-x me-3"></i></a>
+                        
+                    </div>
+                    <hr>
+                    <p>Suscríbete para recibir nuevas ofertas y colecciones.</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Correo electrónico">
+                        <button type="button" class="btn btn-light">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center mb-0">© 2026 Tienda de Muebles. Todos los derechos reservados.</p>
         </div>
-        <div>
-            <h3>Empresa</h3>
-            <ul>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Síguenos</h3>
-            <a href="https://instagram.com" target="_blank">
-                <img src="../Img/Redes Sociales/ig.png" alt="Instagram"> Instagram
-            </a>
-            <a href="https://facebook.com" target="_blank">
-                <img src="../Img/Redes Sociales/fb.png" alt="Facebook"> Facebook
-            </a>
-            <a href="https://telegram.org" target="_blank">
-                <img src="../Img/Redes Sociales/tt.png" alt="TikTok"> TikTok
-            </a>
-        </div>
-        <hr>
-        <p>© 2026 Tienda de Muebles. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
