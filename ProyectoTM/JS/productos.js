@@ -30,7 +30,7 @@ const productos = [
     dimensiones: "80 x 50 cm"},
 
     {id: "prod-04",
-    nombre: "Sofá Atlas",
+    nombre: "Sofá modular Atlas",
     precio: 699,
     categoria: "Sala",
     imagen: "../Img/sala/sofa atlas.png",
@@ -40,7 +40,7 @@ const productos = [
     dimensiones: "220 x 90 x 85 cm"},
 
     {id: "prod-05",
-    nombre: "Mesa Nórdica",
+    nombre: "Mesa de centro Nórdica",
     precio: 129,
     categoria: "Sala",
     imagen: "../Img/sala/mesa centro nordica.png",
