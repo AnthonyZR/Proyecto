@@ -26,12 +26,12 @@ relacionados.forEach(relacionado => {
             <div class="card h-100 shadow-sm">
                 <img src="${relacionado.imagen}" class="card-img-top object-fit-cover" style="height: 220px;"  alt="${relacionado.nombre}">
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">${relacionado.nombre}</h5>
-                    <p class="fw-bold text-dark mb-3">
+                    <h5 class="card-title" style="min-height:48px; font-size:1.15rem; font-weight:700;">${relacionado.nombre}</h5>
+                    <p class="fw-bold" style="color:#7b5637; font-weight:bold; font-weight:700;">
                         S/${relacionado.precio}
                     </p>
                     <a href="11-productos.html?id=${relacionado.id}"
-                       class="btn btn-dark mt-auto">
+                       class="btn btn-dark mt-auto" style="background-color: #8B7355; border-color:#fff;">
                         Ver producto
                     </a>
                 </div>

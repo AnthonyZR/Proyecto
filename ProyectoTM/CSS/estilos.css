@@ -1,12 +1,12 @@
 body{
-    background-color:#faf8f5;
+    background-color: #faf8f1;
     color:#333;
     font-family: "Noto Serif", serif;
 }
 
 /* CONTENIDO */
 section h2{
-    color: #7b5637;
+    color: #5A4B3E;
     text-align:center;
     margin-bottom:10px;
     padding-top: 5%;
@@ -61,6 +61,17 @@ section h2{
     color: #7b5637 !important;
     border-bottom: 2px solid #7b5637;
 }
+.dropdown-menu{
+    background-color: #F3F0E6;
+    border: 1px solid #E7E1D3;
+}
+.dropdown-item{
+    font-weight: 500;
+}
+.dropdown-item:hover{
+    background-color: #EFE8D8;
+    color: #7b5637;
+}
 
 /* CATEGORÍAS */
 #categorias h3{
@@ -110,8 +121,8 @@ section h2{
     height:50px;
     border:none;
     font-size:1.8rem;
-    cursor:pointer;
     flex-shrink:0;
+    background-color: #faf8f1;
 }
 
 /* PRODUCTOS */
@@ -145,11 +156,15 @@ article img{
     object-fit:cover;
 }
 article h3{
-    padding:15px 15px 10px;
+    padding:15px 15px 0;
+    margin-bottom: 5px;
     font-size: 15pt;
 }
 article p{
-    padding:0 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0 15px 0;
+    color: #8B7355;
+    font-weight: 700;
 }
 .dsc{
     position:absolute;
@@ -168,6 +183,7 @@ article p{
 /*FOOTER*/
 footer{
     margin-top:80px;
+    background-color: #2F2923;
 }
 footer h5{
     margin-bottom:18px;
