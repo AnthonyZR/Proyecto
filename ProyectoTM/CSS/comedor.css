@@ -82,40 +82,11 @@ body{
     background:#f3f3f3;
 }
 
-/* BANNER */
-
-.banner-comedor{
-    background-image: url("../imagenes/banner-comedor.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto-banner{
-    background: rgba(0,0,0,0.5);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.texto-banner h1{
-    font-size: 40px;
-}
-
-.texto-banner p{
-    font-size: 18px;
-}
-
 /* CONTENEDOR */
 
 .contenedor-comedor{
     width: 90%;
-    margin: 50px auto;
+    margin: 20px auto;
 
     display: flex;
     gap: 40px;
@@ -221,13 +192,14 @@ body{
 
 /* FOOTER */
 .pie-pagina{    
-    background:#222;
+    background:#022130;
     color:white;
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
     gap:30px;
-    padding:50px;
+    padding:100px;
+    margin-top: 50px;
 }
 .pie-pagina h3{
     margin-bottom:15px;

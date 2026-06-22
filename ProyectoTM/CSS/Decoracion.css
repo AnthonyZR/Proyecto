@@ -1,3 +1,4 @@
+
 body{
     background-color:#f5f5f5;
     color:#333;
@@ -80,6 +81,7 @@ body{
 .submenu a:hover{
     background:#f3f3f3;
 }
+
 
 /* CONTENEDOR */
 
@@ -230,3 +232,8 @@ footer div img{
     margin-right: 10px;
 }
 
+
+.card a{
+    text-decoration: none;
+    color: inherit;
+}
