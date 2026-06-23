@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dormitorio</title>
+    <title>Dormitorio | TdM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../CSS/Baño.css">
+    <link rel="stylesheet" href="../CSS/1.2.4.css">
 </head>
 <body>
 
@@ -53,33 +53,50 @@
     </nav>
 
     <main>
-        <section class="banner-bano">
-            <div class="texto-banner">
-                <h1>Muebles para Dormitorio</h1>
-                <p>Descanso, organización y estilo para tu habitación</p>
-            </div>
-        </section>
-
+        <div class="texto-banner">
+            <h1>Categoría: Dormitorio</h1>
+        </div>
         <section class="contenedor-bano">
-            <aside class="filtros">
-                <h3>CATEGORÍA</h3>
-                <ul>
-                    <li>Cómodas (2)</li>
-                    <li>Camas (2)</li>
-                    <li>Roperos (2)</li>
-                </ul>
-                <hr>
-                <h3>CARACTERÍSTICAS</h3>
-                <label><input type="checkbox"> En oferta</label>
-                <label><input type="checkbox"> Nuevo</label>
-                <label><input type="checkbox"> Moderno</label>
-                <hr>
-                <h3>COLOR</h3>
-                <div class="colores">
-                    <span class="marron"></span>
-                    <span class="negro"></span>
-                    <span class="gris"></span>
-                    <span class="blanco"></span>
+            <aside class="panel-filtros">
+                <div class="encabezado-filtros">
+                    <h3>FILTRAR POR</h3>
+                </div>
+                <div class="grupo-filtro">
+                    <h4>Categoría</h4>
+                    <label><input type="checkbox"> Cómodas (2)</label>
+                    <label><input type="checkbox"> Camas (2)</label>
+                    <label><input type="checkbox"> Roperos (2)</label>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="grupo-filtro">
+                    <h4>Características</h4>
+                    <label><input type="checkbox"> En oferta</label>
+                    <label><input type="checkbox"> Nuevo</label>
+                    <label><input type="checkbox"> Moderno</label>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="grupo-filtro">
+                    <h4>Color</h4>
+                    <div class="contenedor-circulos">
+                        <span class="circulo-color" style="background-color: brown;"></span>
+                        <span class="circulo-color" style="background-color: black;"></span>
+                        <span class="circulo-color" style="background-color: gray;"></span>
+                        <span class="circulo-color" style="background-color: white; border: 1px solid silver;"></span>
+                    </div>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="grupo-filtro">
+                    <h4>Precio</h4>
+                    <input type="range" min="100" max="800" value="100" class="control-precio">
+                    <div class="rango-valores">
+                        <span>S/ 100</span>
+                        <span>S/ 900+</span>
+                    </div>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="acciones-filtros">
+                    <button class="btn-aplicar">Aplicar filtros</button>
+                    <button class="btn-limpiar">Limpiar filtros</button>
                 </div>
             </aside>
 
@@ -93,7 +110,7 @@
                     </select>
                 </div>
 
-                <div class="grid-productos">
+                <div class="contenedor-productos">
                     <!-- Tarjeta 1 -->
                     <div class="card">
                         <a href="11-productos.html?id=prod-02">
@@ -124,7 +141,7 @@
                     <!-- Tarjeta 4 -->
                     <div class="card">
                         <a href="11-productos.html?id=prod-2008">
-                            <img src="../Img/dormitorio/cama duquesa.jpeg" alt="Cama Duquesa">
+                            <img src="../Img/dormitorio/cama-duquesa.png" alt="Cama Duquesa">
                             <h4>Cama Duquesa</h4>
                             <p>S/ 400</p>
                         </a>
@@ -132,7 +149,7 @@
 
                     <!-- Tarjeta 5 -->
                     <div class="card">
-                        <a href="11-productos.html?id=prod-59">
+                        <a href="11-productos.html?id=prod-c59">
                             <img src="../Img/dormitorio/ropero siena.jpeg" alt="Ropero Siena">
                             <h4>Ropero Siena</h4>
                             <p>S/ 450</p>
@@ -141,7 +158,7 @@
 
                     <!-- Tarjeta 6 -->
                     <div class="card">
-                        <a href="11-productos.html?id=prod-60">
+                        <a href="11-productos.html?id=prod-c60">
                             <img src="../Img/dormitorio/ropero clapton.jpeg" alt="Ropero Clapton">
                             <h4>Ropero Clapton</h4>
                             <p>S/ 380</p>

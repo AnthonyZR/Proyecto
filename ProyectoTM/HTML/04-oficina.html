@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oficina</title>
+    <title>Oficina | TdM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../CSS/Baño.css">
+    <link rel="stylesheet" href="../CSS/1.2.4.css">
 </head>
 <body>
 
@@ -53,36 +53,52 @@
     </nav>
 
     <main>
-        <section class="banner-bano">
-            <div class="texto-banner">
-                <h1>Muebles para Oficina</h1>
-                <p>Productividad, confort y ergonomía para tu espacio de trabajo</p>
-            </div>
-        </section>
-
+        <div class="texto-banner">
+            <h1>Categoría: Oficina</h1>
+        </div>
         <section class="contenedor-bano">
-            <aside class="filtros">
-                <h3>CATEGORÍA</h3>
-                <ul>
-                    <li>Sillas de oficina (2)</li>
-                    <li>Escritorios (2)</li>
-                    <li>Estantes (2)</li>
-                </ul>
-                <hr>
-                <h3>CARACTERÍSTICAS</h3>
-                <label><input type="checkbox"> En oferta</label>
-                <label><input type="checkbox"> Nuevo</label>
-                <label><input type="checkbox"> Moderno</label>
-                <hr>
-                <h3>COLOR</h3>
-                <div class="colores">
-                    <span class="marron"></span>
-                    <span class="negro"></span>
-                    <span class="gris"></span>
-                    <span class="blanco"></span>
+            <aside class="panel-filtros">
+                <div class="encabezado-filtros">
+                    <h3>FILTRAR POR</h3>
+                </div>
+                <div class="grupo-filtro">
+                    <h4>Categoría</h4>
+                    <label><input type="checkbox"> Sillas de oficina (2)</label>
+                    <label><input type="checkbox"> Escritorios (2)</label>
+                    <label><input type="checkbox"> Estantes (2)</label>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="grupo-filtro">
+                    <h4>Características</h4>
+                    <label><input type="checkbox"> En oferta</label>
+                    <label><input type="checkbox"> Nuevo</label>
+                    <label><input type="checkbox"> Moderno</label>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="grupo-filtro">
+                    <h4>Color</h4>
+                    <div class="contenedor-circulos">
+                        <span class="circulo-color" style="background-color: brown;"></span>
+                        <span class="circulo-color" style="background-color: black;"></span>
+                        <span class="circulo-color" style="background-color: gray;"></span>
+                        <span class="circulo-color" style="background-color: white; border: 1px solid silver;"></span>
+                    </div>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="grupo-filtro">
+                    <h4>Precio</h4>
+                    <input type="range" min="45" max="900" value="45" class="control-precio">
+                    <div class="rango-valores">
+                        <span>S/ 45</span>
+                        <span>S/ 900+</span>
+                    </div>
+                </div>
+                <hr class="divisor-filtro">
+                <div class="acciones-filtros">
+                    <button class="btn-aplicar">Aplicar filtros</button>
+                    <button class="btn-limpiar">Limpiar filtros</button>
                 </div>
             </aside>
-
             <div class="productos">
                 <div class="cabecera-productos">
                     <h2>RESULTADOS 6</h2>
@@ -92,8 +108,7 @@
                         <option>Mayor precio</option>
                     </select>
                 </div>
-
-                <div class="grid-productos">
+                <div class="contenedor-productos">
                     <div class="card">
                         <a href="11-productos.html?id=prod-01">
                             <img src="../Img/oficina/silla ergomax.png" alt="Silla ErgoMax">
@@ -102,44 +117,44 @@
                         </a>
                     </div>
                     <div class="card">
-    <a href="11-productos.html?id=prod-02">
-        <img src="../Img/oficina/escritorio-l-ejecutivo.webp" alt="Escritorio en L Ejecutivo">
-        <h4>Escritorio en L Ejecutivo</h4>
-        <p>S/ 389</p>
-    </a>
-</div>
+                        <a href="11-productos.html?id=mi-prod-ofic-02">
+                            <img src="../Img/oficina/escritorio-l-ejecutivo.webp" alt="Escritorio en L Ejecutivo">
+                            <h4>Escritorio en L Ejecutivo</h4>
+                            <p>S/ 389</p>
+                        </a>
+                    </div>
 
-<div class="card">
-    <a href="11-productos.html?id=prod-03">
-        <img src="../Img/oficina/archivero-metalico-3cajones.webp" alt="Archivero Metálico 3 Cajones">
-        <h4>Archivero Metálico 3 Cajones</h4>
-        <p>S/ 249</p>
-    </a>
-</div>
+                    <div class="card">
+                        <a href="11-productos.html?id=mi-prod-ofic-03">
+                            <img src="../Img/oficina/archivero-metalico-3cajones.webp" alt="Archivero Metálico 3 Cajones">
+                            <h4>Archivero Metálico 3 Cajones</h4>
+                            <p>S/ 249</p>
+                        </a>
+                    </div>
 
-<div class="card">
-    <a href="11-productos.html?id=prod-04">
-        <img src="../Img/oficina/lampara-escritorio-led.webp" alt="Lámpara Escritorio LED">
-        <h4>Lámpara Escritorio LED</h4>
-        <p>S/ 69</p>
-    </a>
-</div>
+                    <div class="card">
+                        <a href="11-productos.html?id=mi-prod-ofic-04">
+                            <img src="../Img/oficina/lampara-escritorio-led.webp" alt="Lámpara Escritorio LED">
+                            <h4>Lámpara Escritorio LED</h4>
+                            <p>S/ 69</p>
+                        </a>
+                    </div>
 
-<div class="card">
-    <a href="11-productos.html?id=prod-05">
-        <img src="../Img/oficina/estante-librero-moderno.webp" alt="Estante Librero Moderno">
-        <h4>Estante Librero Moderno</h4>
-        <p>S/ 189</p>
-    </a>
-</div>
+                    <div class="card">
+                        <a href="11-productos.html?id=mi-prod-ofic-05">
+                            <img src="../Img/oficina/estante-librero-moderno.webp" alt="Estante Librero Moderno">
+                            <h4>Estante Librero Moderno</h4>
+                            <p>S/ 189</p>
+                        </a>
+                    </div>
 
-<div class="card">
-    <a href="11-productos.html?id=prod-06">
-        <img src="../Img/oficina/soporte-laptop-aluminio.webp" alt="Soporte Laptop Aluminio">
-        <h4>Soporte Laptop Aluminio</h4>
-        <p>S/ 49</p>
-    </a>
-</div>
+                    <div class="card">
+                        <a href="11-productos.html?id=mi-prod-ofic-06">
+                            <img src="../Img/oficina/soporte-laptop-aluminio.webp" alt="Soporte Laptop Aluminio">
+                            <h4>Soporte Laptop Aluminio</h4>
+                            <p>S/ 49</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

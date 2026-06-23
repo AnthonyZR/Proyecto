@@ -746,14 +746,14 @@ const productos = [
     nombre: "Cama Duquesa",
     precio: 400,
     categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/cama duquesa.jpeg",
+    imagen: "../Img/dormitorio/cama-duquesa.png",
     descripcion: "Estructura de cama robusta con un diseño clásico y detalles señoriales en la cabecera que imponen presencia en el dormitorio.",
     material: "Madera Maciza seleccionada",
     color: "Nogal",
     dimensiones: "210 x 160 x 120 cm"
 },
 {
-    id: "prod-59",
+    id: "prod-c59",
     nombre: "Ropero Siena",
     precio: 450,
     categoria: "Dormitorio",
@@ -764,7 +764,7 @@ const productos = [
     dimensiones: "190 x 140 x 50 cm"
 },
 {
-    id: "prod-60",
+    id: "prod-c60",
     nombre: "Ropero Clapton",
     precio: 380,
     categoria: "Dormitorio",
@@ -790,9 +790,9 @@ const productos = [
 {
     id: "mi-prod-ofic-02",
     nombre: "Escritorio Elevable Premium",
-    precio: 299,
+    precio: 389,
     categoria: "Oficina",
-    imagen: "../Img/oficina/escritorio elevable.png",
+    imagen: "../Img/oficina/escritorio-l-ejecutivo.webp",
     descripcion: "Escritorio con motor silencioso para ajuste de altura programable, ideal para trabajar de pie o sentado.",
     material: "Acero y Madera lacada",
     color: "Blanco",
@@ -801,9 +801,9 @@ const productos = [
 {
     id: "mi-prod-ofic-03",
     nombre: "Organizador de Archivos Móvil",
-    precio: 79,
+    precio: 249,
     categoria: "Oficina",
-    imagen: "../Img/oficina/organizador movil.png",
+    imagen: "../Img/oficina/archivero-metalico-3cajones.webp",
     descripcion: "Cajonera con ruedas y cerradura de seguridad, perfecta para mantener documentos importantes bajo llave.",
     material: "Metal con pintura electrostática",
     color: "Gris Grafito",
@@ -811,35 +811,35 @@ const productos = [
 },
 {
     id: "mi-prod-ofic-04",
-    nombre: "Librero Ejecutivo Oxford",
-    precio: 249,
+    nombre: "Lámpara de escritorio LED",
+    precio: 69,
     categoria: "Oficina",
-    imagen: "../Img/oficina/librero oxford.png",
-    descripcion: "Estantería robusta de diseño clásico con repisas ajustables para libros pesados y decoraciones.",
-    material: "Madera enchapada en roble",
-    color: "Marrón Oscuro",
-    dimensiones: "80 x 30 x 190 cm"
+    imagen: "../Img/oficina/lampara-escritorio-led.webp",
+    descripcion: "Lámpara de escritorio LED con brazo ajustable y luz regulable en intensidad. Ideal para lectura, estudio y trabajo en oficina.",
+    material: "Aluminio y plástico ABS",
+    color: "Negro",
+    dimensiones: "35 x 15 x 40 cm"
 },
 {
     id: "mi-prod-ofic-05",
-    nombre: "Silla Ejecutiva Boss",
-    precio: 199,
+    nombre: "Estante Librero Moderno",
+    precio: 189,
     categoria: "Oficina",
-    imagen: "../Img/oficina/silla boss.png",
-    descripcion: "Silla de alta gama tapizada en cuero sintético premium, con reclinación asincrónica y descansa brazos acolchados.",
-    material: "Cuero PU y base cromada",
-    color: "Marrón Tabaco",
-    dimensiones: "68 x 65 x 125 cm"
+    imagen: "../Img/oficina/estante-librero-moderno.webp",
+    descripcion: "Estante librero de diseño moderno con múltiples niveles para organizar libros, documentos y elementos decorativos.",
+    material: "Melamina de alta resistencia",
+    color: "Roble claro",
+    dimensiones: "80 x 30 x 180 cm"
 },
 {
     id: "mi-prod-ofic-06",
-    nombre: "Mesa de Reuniones Compacta",
-    precio: 349,
+    nombre: "Soporte Laptop Aluminio",
+    precio: 49,
     categoria: "Oficina",
-    imagen: "../Img/oficina/mesa reuniones.png",
-    descripcion: "Mesa redonda ideal para salas de juntas pequeñas o espacios de coworking interactivos.",
-    material: "Madera y patas metálicas angulares",
-    color: "Gris y Negro",
-    dimensiones: "120 x 120 x 75 cm"
+    imagen: "../Img/oficina/soporte-laptop-aluminio.webp",
+    descripcion: "Soporte ergonómico para laptop que mejora la postura y favorece la ventilación del equipo gracias a su diseño abierto.",
+    material: "Aluminio",
+    color: "Plata",
+    dimensiones: "26 x 22 x 15 cm"
 }
 ];
