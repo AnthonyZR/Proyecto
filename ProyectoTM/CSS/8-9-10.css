@@ -194,6 +194,7 @@ body{
     font-size:16px;
     min-height:55px;
     margin: 0;
+    text-align: center;
 }
 
 .contenedor-productos article p{
@@ -201,6 +202,7 @@ body{
     color:#8B7355;
     font-weight:700;
     font-size:15px;
+    text-align: center;
 }
 
 footer{

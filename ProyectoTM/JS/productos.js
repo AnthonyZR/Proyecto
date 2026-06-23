@@ -549,79 +549,6 @@ const productos = [
     color: "Madera natural envejecida",
     dimensiones: "1.40 x 0.80 x 0.35 m"},
     
-<<<<<<< HEAD
-    {
-id: "prod-56",
-nombre: "Alfombra de Piel",
-precio: 1299,
-categoria: "Decoración",
-imagen: "../Img/decoracion/alfombra piel.png",
-descripcion: "Alfombra decorativa de textura suave y elegante para salas y dormitorios.",
-material: "Poliéster",
-color: "Beige",
-dimensiones: "200 x 150 cm"
-},
-
-{
-id: "prod-57",
-nombre: "Cuadro Abstracto Earth",
-precio: 499,
-categoria: "Decoración",
-imagen: "../Img/decoracion/cuadro abstracto earth.png",
-descripcion: "Cuadro decorativo con diseño abstracto inspirado en tonos tierra.",
-material: "Lienzo y madera",
-color: "Multicolor",
-dimensiones: "90 x 60 cm"
-},
-
-{
-id: "prod-58",
-nombre: "Espejo Aura Oval",
-precio: 899,
-categoria: "Decoración",
-imagen: "../Img/decoracion/Espejo Aura Oval.webp",
-descripcion: "Espejo ovalado moderno ideal para salas, baños y dormitorios.",
-material: "Vidrio y aluminio",
-color: "Negro",
-dimensiones: "80 x 50 cm"
-},
-
-{
-id: "prod-59",
-nombre: "Espejos Verticales Infinity",
-precio: 1599,
-categoria: "Decoración",
-imagen: "../Img/decoracion/espejos verticales infinity.png",
-descripcion: "Juego de espejos decorativos de cuerpo completo con diseño moderno.",
-material: "Vidrio templado",
-color: "Plateado",
-dimensiones: "180 x 40 cm"
-},
-
-{
-id: "prod-60",
-nombre: "Jarrones Zafiro",
-precio: 699,
-categoria: "Decoración",
-imagen: "../Img/decoracion/jarrones zafiro.png",
-descripcion: "Set de jarrones decorativos de estilo contemporáneo.",
-material: "Cerámica",
-color: "Azul",
-dimensiones: "40 cm"
-},
-
-{
-id: "prod-61",
-nombre: "Ramas Forest",
-precio: 349,
-categoria: "Decoración",
-imagen: "../Img/decoracion/ramas forest.png",
-descripcion: "Ramas decorativas artificiales para jarrones y centros de mesa.",
-material: "PVC",
-color: "Verde",
-dimensiones: "120 cm"
-}
-=======
     {id: "prod-56",
     nombre: "Silla Con Cojín (Negra) Estructura De Aluminio",
     precio: 399,
@@ -711,5 +638,4 @@ dimensiones: "120 cm"
     material: "Metal y tela",
     color: "Gris",
     dimensiones: "45 x 20 cm"},
->>>>>>> ea92741e65a3449e178efc9412cd4e3daddc85b0
 ];
