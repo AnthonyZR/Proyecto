@@ -549,79 +549,6 @@ const productos = [
     color: "Madera natural envejecida",
     dimensiones: "1.40 x 0.80 x 0.35 m"},
     
-<<<<<<< HEAD
-    {
-id: "prod-56",
-nombre: "Alfombra de Piel",
-precio: 1299,
-categoria: "Decoración",
-imagen: "../Img/decoracion/alfombra piel.png",
-descripcion: "Alfombra decorativa de textura suave y elegante para salas y dormitorios.",
-material: "Poliéster",
-color: "Beige",
-dimensiones: "200 x 150 cm"
-},
-
-{
-id: "prod-57",
-nombre: "Cuadro Abstracto Earth",
-precio: 499,
-categoria: "Decoración",
-imagen: "../Img/decoracion/cuadro abstracto earth.png",
-descripcion: "Cuadro decorativo con diseño abstracto inspirado en tonos tierra.",
-material: "Lienzo y madera",
-color: "Multicolor",
-dimensiones: "90 x 60 cm"
-},
-
-{
-id: "prod-58",
-nombre: "Espejo Aura Oval",
-precio: 899,
-categoria: "Decoración",
-imagen: "../Img/decoracion/Espejo Aura Oval.webp",
-descripcion: "Espejo ovalado moderno ideal para salas, baños y dormitorios.",
-material: "Vidrio y aluminio",
-color: "Negro",
-dimensiones: "80 x 50 cm"
-},
-
-{
-id: "prod-59",
-nombre: "Espejos Verticales Infinity",
-precio: 1599,
-categoria: "Decoración",
-imagen: "../Img/decoracion/espejos verticales infinity.png",
-descripcion: "Juego de espejos decorativos de cuerpo completo con diseño moderno.",
-material: "Vidrio templado",
-color: "Plateado",
-dimensiones: "180 x 40 cm"
-},
-
-{
-id: "prod-60",
-nombre: "Jarrones Zafiro",
-precio: 699,
-categoria: "Decoración",
-imagen: "../Img/decoracion/jarrones zafiro.png",
-descripcion: "Set de jarrones decorativos de estilo contemporáneo.",
-material: "Cerámica",
-color: "Azul",
-dimensiones: "40 cm"
-},
-
-{
-id: "prod-61",
-nombre: "Ramas Forest",
-precio: 349,
-categoria: "Decoración",
-imagen: "../Img/decoracion/ramas forest.png",
-descripcion: "Ramas decorativas artificiales para jarrones y centros de mesa.",
-material: "PVC",
-color: "Verde",
-dimensiones: "120 cm"
-}
-=======
     {id: "prod-56",
     nombre: "Silla Con Cojín (Negra) Estructura De Aluminio",
     precio: 399,
@@ -711,5 +638,208 @@ dimensiones: "120 cm"
     material: "Metal y tela",
     color: "Gris",
     dimensiones: "45 x 20 cm"},
->>>>>>> ea92741e65a3449e178efc9412cd4e3daddc85b0
+
+    // === MI SALA (CORREGIDO CON LOS PRODUCTOS REALES DEL HTML) ===
+    {
+        id: "mi-prod-sala-01",
+        nombre: "Sofá Atlas",
+        precio: 699,
+        categoria: "Sala",
+        imagen: "../Img/sala/sofa atlas.png",
+        descripcion: "Sofá compacto de diseño contemporáneo, ideal para departamentos modernos y espacios optimizados.",
+        material: "Estructura de madera tratada y tapizado en tela resistente de alto tránsito",
+        color: "Gris oscuro",
+        dimensiones: "1.80 x 0.85 x 0.80 m"
+    },
+    {
+        id: "mi-prod-sala-02",
+        nombre: "Mesa Nórdica",
+        precio: 129,
+        categoria: "Sala",
+        imagen: "../Img/sala/mesa centro nordica.png",
+        descripcion: "Mesa de centro de estilo escandinavo con sutiles líneas limpias y patas de madera clara expuesta.",
+        material: "Tablero de MDF lacado y patas de madera maciza de pino",
+        color: "Blanco y Madera natural",
+        dimensiones: "0.90 x 0.50 x 0.45 m"
+    },
+    {
+        id: "mi-prod-sala-03",
+        nombre: "Sofá Serene Comfort",
+        precio: 3499,
+        categoria: "Sala",
+        imagen: "../Img/sala/sofa serene.png",
+        descripcion: "Sofá de líneas bajas con extensión chaise longue derecha, diseñado para salas amplias y minimalistas.",
+        material: "Estructura interna de madera maciza y tapizado en tela texturizada de lino premium",
+        color: "Beige arena",
+        dimensiones: "3.20 x 1.05 x 1.75 x 0.42 m"
+    },
+    {
+        id: "mi-prod-sala-04",
+        nombre: "Mesa Centro Nido Double Eclipse",
+        precio: 849,
+        categoria: "Sala",
+        imagen: "../Img/sala/mesas centro nido.png",
+        descripcion: "Set de dos mesas de centro encajables de alturas diferentes, perfectas para dar dinamismo y flexibilidad a tu sala.",
+        material: "Estructura metálica con pintura electrostática y tableros con acabado tipo mármol/madera",
+        color: "Negro y Blanco veteado",
+        dimensiones: "Grande: 80cm Ø x 45cm | Chica: 60cm Ø x 38cm"
+    },
+    {
+        id: "mi-prod-sala-05",
+        nombre: "Sillón de Acento Chester Leather",
+        precio: 1149,
+        categoria: "Sala",
+        imagen: "../Img/sala/sillon chester.png",
+        descripcion: "Sillón individual clásico estilo Chesterfield con capitoné profundo en el respaldo y brazos curvos elegantes.",
+        material: "Estructura robusta de madera y tapizado en eco-cuero premium envejecido",
+        color: "Marrón chocolate",
+        dimensiones: "1.05 x 0.90 x 0.75 m"
+    },
+    {
+        id: "mi-prod-sala-06",
+        nombre: "Sillon Reclinable Skar",
+        precio: 999,
+        categoria: "Sala",
+        imagen: "../Img/sala/sillon reclinable skar.webp",
+        descripcion: "Sillón reclinable ultra acolchado con sistema mecánico de empuje, ideal para máxima relajación y zonas de lectura.",
+        material: "Mecanismo de metal reforzado y tapizado en microfibra suave premium",
+        color: "Gris cemento",
+        dimensiones: "0.95 x 0.95 x 1.00 m"
+    },
+
+// === MI DORMITORIO (CORREGIDO Y SIN ERRORES DE IMAGEN) ===
+{
+    id: "prod-02",
+    nombre: "Cómodas Sable 4",
+    precio: 89,
+    categoria: "Dormitorio",
+    imagen: "../Img/dormitorio/comoda sable.png",
+    descripcion: "Cómoda práctica y compacta de 4 cajones, ideal para organizar prendas ligeras y optimizar espacios reducidos.",
+    material: "Melamina premium de alta densidad",
+    color: "Blanco Sable",
+    dimensiones: "90 x 60 x 40 cm"
+},
+{
+    id: "prod-522",
+    nombre: "Comoda Jasper",
+    precio: 100,
+    categoria: "Dormitorio",
+    imagen: "../Img/dormitorio/comoda jasper.jpeg",
+    descripcion: "Elegante cómoda con amplios compartimentos y un acabado moderno que combina con cualquier estilo de decoración.",
+    material: "Madera procesada estructural",
+    color: "Marrón Claro",
+    dimensiones: "100 x 80 x 45 cm"
+},
+{
+    id: "prod-06",
+    nombre: "Cama Tapizada Oslo",
+    precio: 389,
+    categoria: "Dormitorio",
+    imagen: "../Img/dormitorio/cama oslo.png",
+    descripcion: "Cama con cabecera acolchada y tapizada en tela de alta calidad, perfecta para un descanso cómodo y con estilo nórdico.",
+    material: "Estructura de madera reforzada y tela Velvet",
+    color: "Gris Estructura",
+    dimensiones: "200 x 150 x 110 cm"
+},
+{
+    id: "prod-2008",
+    nombre: "Cama Duquesa",
+    precio: 400,
+    categoria: "Dormitorio",
+    imagen: "../Img/dormitorio/cama duquesa.jpeg",
+    descripcion: "Estructura de cama robusta con un diseño clásico y detalles señoriales en la cabecera que imponen presencia en el dormitorio.",
+    material: "Madera Maciza seleccionada",
+    color: "Nogal",
+    dimensiones: "210 x 160 x 120 cm"
+},
+{
+    id: "prod-59",
+    nombre: "Ropero Siena",
+    precio: 450,
+    categoria: "Dormitorio",
+    imagen: "../Img/dormitorio/ropero siena.jpeg",
+    descripcion: "Ropero de gran capacidad con puertas batientes, colgadores reforzados y cajoneras internas para un orden total.",
+    material: "Melamina de 18mm de alta resistencia",
+    color: "Cerezo",
+    dimensiones: "190 x 140 x 50 cm"
+},
+{
+    id: "prod-60",
+    nombre: "Ropero Clapton",
+    precio: 380,
+    categoria: "Dormitorio",
+    imagen: "../Img/dormitorio/ropero clapton.jpeg",
+    descripcion: "El ropero Clapton es una alternativa funcional para quienes buscan mayor capacidad de almacenamiento en el dormitorio.",
+    material: "Madera tratada con acabados mate",
+    color: "Negro",
+    dimensiones: "195 x 150 x 110 cm"
+},
+
+// === MIS 6 PRODUCTOS DE OFICINA (IDs ÚNICOS) ===
+{
+    id: "mi-prod-ofic-01",
+    nombre: "Silla ErgoMax",
+    precio: 159,
+    categoria: "Oficina",
+    imagen: "../Img/oficina/silla ergomax.png",
+    descripcion: "Silla ergonómica con respaldo de malla transpirable y soporte lumbar ajustable, ideal para largas jornadas de trabajo.",
+    material: "Malla transpirable y acero",
+    color: "Negro",
+    dimensiones: "62 x 58 x 118 cm"
+},
+{
+    id: "mi-prod-ofic-02",
+    nombre: "Escritorio Elevable Premium",
+    precio: 299,
+    categoria: "Oficina",
+    imagen: "../Img/oficina/escritorio elevable.png",
+    descripcion: "Escritorio con motor silencioso para ajuste de altura programable, ideal para trabajar de pie o sentado.",
+    material: "Acero y Madera lacada",
+    color: "Blanco",
+    dimensiones: "140 x 70 x 65-125 cm"
+},
+{
+    id: "mi-prod-ofic-03",
+    nombre: "Organizador de Archivos Móvil",
+    precio: 79,
+    categoria: "Oficina",
+    imagen: "../Img/oficina/organizador movil.png",
+    descripcion: "Cajonera con ruedas y cerradura de seguridad, perfecta para mantener documentos importantes bajo llave.",
+    material: "Metal con pintura electrostática",
+    color: "Gris Grafito",
+    dimensiones: "40 x 50 x 60 cm"
+},
+{
+    id: "mi-prod-ofic-04",
+    nombre: "Librero Ejecutivo Oxford",
+    precio: 249,
+    categoria: "Oficina",
+    imagen: "../Img/oficina/librero oxford.png",
+    descripcion: "Estantería robusta de diseño clásico con repisas ajustables para libros pesados y decoraciones.",
+    material: "Madera enchapada en roble",
+    color: "Marrón Oscuro",
+    dimensiones: "80 x 30 x 190 cm"
+},
+{
+    id: "mi-prod-ofic-05",
+    nombre: "Silla Ejecutiva Boss",
+    precio: 199,
+    categoria: "Oficina",
+    imagen: "../Img/oficina/silla boss.png",
+    descripcion: "Silla de alta gama tapizada en cuero sintético premium, con reclinación asincrónica y descansa brazos acolchados.",
+    material: "Cuero PU y base cromada",
+    color: "Marrón Tabaco",
+    dimensiones: "68 x 65 x 125 cm"
+},
+{
+    id: "mi-prod-ofic-06",
+    nombre: "Mesa de Reuniones Compacta",
+    precio: 349,
+    categoria: "Oficina",
+    imagen: "../Img/oficina/mesa reuniones.png",
+    descripcion: "Mesa redonda ideal para salas de juntas pequeñas o espacios de coworking interactivos.",
+    material: "Madera y patas metálicas angulares",
+    color: "Gris y Negro",
+    dimensiones: "120 x 120 x 75 cm"
+}
 ];

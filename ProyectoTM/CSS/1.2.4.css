@@ -1,0 +1,229 @@
+body{
+    background-color:#f5f5f5;
+    color:#333;
+}
+
+.encabezado{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:20px 40px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+.encabezado h1{
+    font-size:15pt;
+}
+.encabezado form{
+    display:flex;
+    gap:10px;
+    flex-shrink:1;
+}
+.encabezado input{
+    width:100%;
+    max-width:300px;
+    padding:8px 15px;
+}
+.encabezado a{
+    font-size:10pt;
+    text-decoration:none;
+}
+
+.menu-superior{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+.menu-superior ul{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.menu-superior li{
+    position:relative;
+}
+.menu-superior a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+.menu-superior a:hover{
+    color:#666;
+}
+.submenu{
+    display:none !important;
+    position:absolute;
+    top:100%;
+    left:0;
+    min-width:120px;
+    background:white;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+    padding:10px 0;
+    z-index:2;
+}
+.desplegable:hover .submenu{
+    display:block !important;
+}
+.submenu li{
+    width:100%;
+}
+.submenu a{
+    display:block;
+    padding:8px 15px;
+    font-size:10pt;
+}
+.submenu a:hover{
+    background:#f3f3f3;
+}
+
+/* BANNER */
+
+.banner-bano{
+    background-image: url("../imagenes/banner-bano.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-banner{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.texto-banner h1{
+    font-size: 40px;
+}
+
+.texto-banner p{
+    font-size: 18px;
+}
+
+/* CONTENEDOR */
+
+.contenedor-bano{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    gap: 40px;
+}
+
+/* FILTROS */
+
+.filtros{
+    width: 250px;
+}
+
+.filtros h3{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.filtros ul{
+    list-style: none;
+    padding: 0;
+}
+
+.filtros li{
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.filtros label{
+    display: block;
+    margin: 10px 0;
+}
+
+.filtros hr{
+    margin: 25px 0;
+}
+
+/* COLORES */
+
+.colores{
+    display: flex;
+    gap: 10px;
+}
+
+.colores span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.marron{
+    background: brown;
+}
+
+.negro{
+    background: black;
+}
+
+.gris{
+    background: gray;
+}
+
+.blanco{
+    background: white;
+}
+
+/* PRODUCTOS */
+
+.productos{
+    flex: 1;
+}
+
+.cabecera-productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cabecera-productos select{
+    padding: 8px;
+}
+
+.grid-productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h4{
+    margin-top: 10px;
+}
+
+.card p{
+    color: #0b6fa4;
+    font-weight: bold;
+}
