@@ -38,9 +38,10 @@ body{
 
 /* CONTENEDOR */
 
-.contenedor-bano{
+.catalogo{
     width: 90%;
-    margin: 50px auto;
+    margin: 20px auto;
+
     display: flex;
     gap: 40px;
 }
@@ -63,7 +64,6 @@ body{
 
 .filtros li{
     margin: 10px 0;
-    cursor: pointer;
 }
 
 .filtros label{
@@ -119,41 +119,51 @@ body{
     margin-bottom: 30px;
 }
 
-.cabecera-productos select{
-    padding: 8px;
-}
-
-.grid-productos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+.contenedor-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 
 .card{
+    width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 10px -5px rgba(0,0,0,.2);
+    transition: .3s;
     text-align: center;
-    transition: 0.3s;
 }
-
+.card a{
+    text-decoration: none;
+}
 .card:hover{
-    transform: translateY(-8px);
+    transform: translateY(-5px);
 }
-
 .card img{
     width: 100%;
-    height: 250px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 8px;
+    display: block;
+    background: #cfcfcf;
 }
-
 .card h4{
-    margin-top: 10px;
+    padding: 15px 15px 0;
+    font-size: 16px;
+    min-height: 55px;
+    margin: 0;
+    color: black;
 }
-
 .card p{
-    color: #0b6fa4;
-    font-weight: bold;
+    padding: 0 15px 15px;
+    color: #8B7355;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
 }
 
+/* FOOTER */
 footer{
     margin-top:80px;
     background-color: #2F2923;
