@@ -707,77 +707,111 @@ const productos = [
         dimensiones: "0.95 x 0.95 x 1.00 m"
     },
 
-//dormitorio
-{
-    id: "prod-02",
-    nombre: "Cómodas Sable 4",
-    precio: 89,
-    categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/comoda sable.png",
-    descripcion: "Cómoda práctica y compacta de 4 cajones, ideal para organizar prendas ligeras y optimizar espacios reducidos.",
-    material: "Melamina premium de alta densidad",
-    color: "Blanco Sable",
-    dimensiones: "90 x 60 x 40 cm"
-},
-{
-    id: "prod-522",
-    nombre: "Comoda Jasper",
-    precio: 100,
-    categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/comoda jasper.jpeg",
-    descripcion: "Elegante cómoda con amplios compartimentos y un acabado moderno que combina con cualquier estilo de decoración.",
-    material: "Madera procesada estructural",
-    color: "Marrón Claro",
-    dimensiones: "100 x 80 x 45 cm"
-},
-{
-    id: "prod-06",
-    nombre: "Cama Tapizada Oslo",
-    precio: 389,
-    categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/cama oslo.png",
-    descripcion: "Cama con cabecera acolchada y tapizada en tela de alta calidad, perfecta para un descanso cómodo y con estilo nórdico.",
-    material: "Estructura de madera reforzada y tela Velvet",
-    color: "Gris Estructura",
-    dimensiones: "200 x 150 x 110 cm"
-},
-{
-    id: "prod-2008",
-    nombre: "Cama Duquesa",
-    precio: 400,
-    categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/cama duquesa.jpeg",
-    descripcion: "Estructura de cama robusta con un diseño clásico y detalles señoriales en la cabecera que imponen presencia en el dormitorio.",
-    material: "Madera Maciza seleccionada",
-    color: "Nogal",
-    dimensiones: "210 x 160 x 120 cm"
-},
-{
-    id: "prod-59",
-    nombre: "Ropero Siena",
-    precio: 450,
-    categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/ropero siena.jpeg",
-    descripcion: "Ropero de gran capacidad con puertas batientes, colgadores reforzados y cajoneras internas para un orden total.",
-    material: "Melamina de 18mm de alta resistencia",
-    color: "Cerezo",
-    dimensiones: "190 x 140 x 50 cm"
-},
-{
-    id: "prod-60",
-    nombre: "Ropero Clapton",
-    precio: 380,
-    categoria: "Dormitorio",
-    imagen: "../Img/dormitorio/ropero clapton.jpeg",
-    descripcion: "El ropero Clapton es una alternativa funcional para quienes buscan mayor capacidad de almacenamiento en el dormitorio.",
-    material: "Madera tratada con acabados mate",
-    color: "Negro",
-    dimensiones: "195 x 150 x 110 cm"
-},
+    // === CATEGORÍA: SALA ===
+    {
+        id: "mi-prod-sala-01",
+        nombre: "Sofá Atlas",
+        precio: 699,
+        categoria: "Sala",
+        imagen: "../Img/sala/sofa atlas.png",
+        descripcion: "Sofá compacto de diseño contemporáneo, ideal para departamentos modernos y espacios optimizados de convivencia.",
+        material: "Estructura de madera tratada y tapizado en tela resistente",
+        color: "Gris oscuro",
+        dimensiones: "1.80 x 0.85 x 0.80 m"
+    },
+    {
+        id: "mi-prod-sala-02",
+        nombre: "Mesa Nórdica",
+        precio: 129,
+        categoria: "Sala",
+        imagen: "../Img/sala/mesa centro nordica.png",
+        descripcion: "Mesa de centro de estilo escandinavo con sutiles líneas limpias y patas de madera clara expuesta.",
+        material: "Tablero de MDF lacado y patas de madera maciza de pino",
+        color: "Blanco y Madera natural",
+        dimensiones: "0.90 x 0.50 x 0.45 m"
+    },
+    {
+        id: "mi-prod-sala-03",
+        nombre: "Sofá Serene Comfort",
+        precio: 3499,
+        categoria: "Sala",
+        imagen: "../Img/sala/sofa serene.png",
+        descripcion: "Sofá de líneas bajas con extensión chaise longue derecha, diseñado para salas amplias.",
+        material: "Estructura interna de madera maciza y lino premium",
+        color: "Beige arena",
+        dimensiones: "3.20 x 1.05 x 1.75 m"
+    },
 
+    // === CATEGORÍA: DORMITORIO ===
+    {
+        id: "mi-prod-sala-07",
+        nombre: "Comoda sable",
+        precio: 89,
+        categoria: "Dormitorio",
+        imagen: "../Img/dormitorio/comoda sable.png",
+        descripcion: "Cómoda funcional de estructura ligera con 4 cajones espaciosos, ideal para optimizar el espacio en habitaciones medianas.",
+        material: "Melamina de alta densidad 18mm",
+        color: "Blanco Sable",
+        dimensiones: "90 x 60 x 40 cm"
+    },
+    {
+        id: "mi-prod-sala-08",
+        nombre: "Comoda jasper",
+        precio: 100,
+        categoria: "Dormitorio",
+        imagen: "../Img/dormitorio/comoda jasper.jpeg",
+        descripcion: "Cajonera robusta con acabados modernos en madera procesada, perfecta para organizar prendas pesadas.",
+        material: "Madera procesada estructural",
+        color: "Marrón Claro",
+        dimensiones: "100 x 80 x 45 cm"
+    },
+    {
+        id: "mi-prod-sala-09",
+        nombre: "Cama oslo",
+        precio: 389,
+        categoria: "Dormitorio",
+        imagen: "../Img/dormitorio/cama oslo.png",
+        descripcion: "Cama ergonómica con cabecera acolchada en tela velvet texturizada. Aporta un look minimalista y Nórdico.",
+        material: "Madera de pino reforzada y tela Velvet",
+        color: "Gris Estructura",
+        dimensiones: "200 x 150 x 110 cm"
+    },
+    {
+        id: "mi-prod-sala-10",
+        nombre: "Cama duquesa",
+        precio: 400,
+        categoria: "Dormitorio",
+        imagen: "../Img/dormitorio/Cama duquesa.webp",
+        descripcion: "Cama matrimonial clásica con tallados detallados en la cabecera. Aporta elegancia y durabilidad superior.",
+        material: "Madera Maciza selecta",
+        color: "Nogal Oscuro",
+        dimensiones: "210 x 160 x 120 cm"
+    },
+    {
+        id: "mi-prod-sala-11",
+        nombre: "Ropero siena",
+        precio: 450,
+        categoria: "Dormitorio",
+        imagen: "../Img/dormitorio/ropero siena.jpeg",
+        descripcion: "Armario completo con tres secciones de colgado rápido y cajonería baja con rieles telescópicos.",
+        material: "Melamina premium de 18mm",
+        color: "Cerezo",
+        dimensiones: "190 x 140 x 50 cm"
+    },
+    {
+        id: "mi-prod-sala-12",
+        nombre: "Ropero clapton",
+        precio: 380,
+        categoria: "Dormitorio",
+        imagen: "../Img/dormitorio/ropero clapton.jpeg",
+        descripcion: "Ropero moderno de estilo industrial. Gran capacidad de almacenamiento con estantería lateral regulable.",
+        material: "Madera tratada y metal lacado mate",
+        color: "Negro Industrial",
+        dimensiones: "195 x 150 x 52 cm"
+    },
 //oficina
 {
-    id: "mi-prod-ofic-01",
+    id: "pmi-prod-sala-13",
     nombre: "Silla ErgoMax",
     precio: 159,
     categoria: "Oficina",
@@ -788,11 +822,11 @@ const productos = [
     dimensiones: "62 x 58 x 118 cm"
 },
 {
-    id: "mi-prod-ofic-02",
+    id: "pmi-prod-sala-14",
     nombre: "Escritorio Elevable Premium",
     precio: 299,
     categoria: "Oficina",
-    imagen: "../Img/oficina/escritorio elevable.png",
+    imagen: "../Img/oficina/escritorio-l-ejecutivo.webp",
     descripcion: "Escritorio con motor silencioso para ajuste de altura programable, ideal para trabajar de pie o sentado.",
     material: "Acero y Madera lacada",
     color: "Blanco",

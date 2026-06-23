@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../CSS/Baño.css">
+    <link rel="stylesheet" href="../CSS/5-6-7.css">
 </head>
 <body>
-
+   
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm sticky-top" style="background-color: #F3F0E6;">
     <div class="container">
         <a class="navbar-brand fw-bold fs-3" href="01-principal.html">Tienda de muebles</a>
@@ -53,103 +53,84 @@
     </nav>
 
     <main>
-        <section class="banner-bano">
-            <div class="texto-banner">
-                <h1>Muebles para Dormitorio</h1>
-                <p>Descanso, organización y estilo para tu habitación</p>
+    <section class="catalogo">
+        <aside class="filtros">
+            <h3>CATEGORÍA</h3>
+            <ul>
+                <li>Cómodas (2)</li>
+                <li>Camas (2)</li>
+                <li>Roperos (2)</li>
+            </ul>
+            <hr>
+            <h3>CARACTERÍSTICAS</h3>
+            <label><input type="checkbox"> En oferta</label>
+            <label><input type="checkbox"> Nuevo</label>
+            <label><input type="checkbox"> Ecológico</label>
+            <hr>
+        </aside>
+
+        <div class="productos">
+            <div class="cabecera-productos">
+                <h2>RESULTADOS 6</h2>
+                <select>
+                    <option>Más vendido</option>
+                    <option>Menor precio</option>
+                    <option>Mayor precio</option>
+                </select>
             </div>
-        </section>
 
-        <section class="contenedor-bano">
-            <aside class="filtros">
-                <h3>CATEGORÍA</h3>
-                <ul>
-                    <li>Cómodas (2)</li>
-                    <li>Camas (2)</li>
-                    <li>Roperos (2)</li>
-                </ul>
-                <hr>
-                <h3>CARACTERÍSTICAS</h3>
-                <label><input type="checkbox"> En oferta</label>
-                <label><input type="checkbox"> Nuevo</label>
-                <label><input type="checkbox"> Moderno</label>
-                <hr>
-                <h3>COLOR</h3>
-                <div class="colores">
-                    <span class="marron"></span>
-                    <span class="negro"></span>
-                    <span class="gris"></span>
-                    <span class="blanco"></span>
+            <div class="contenedor-productos">
+                <!-- Producto 1 -->
+                <div class="card">
+                    <a href="11-productos.html?id=mi-dorm-01">
+                        <img src="../Img/dormitorio/comoda sable.png" alt="Cómoda Sable">
+                        <h4>Comoda sable</h4>
+                        <p>S/ 89</p>
+                    </a>
                 </div>
-            </aside>
-
-            <div class="productos">
-                <div class="cabecera-productos">
-                    <h2>RESULTADOS 6</h2>
-                    <select>
-                        <option>Más vendido</option>
-                        <option>Menor precio</option>
-                        <option>Mayor precio</option>
-                    </select>
+                <!-- Producto 2 -->
+                <div class="card">
+                    <a href="11-productos.html?id=mi-dorm-02">
+                        <img src="../Img/dormitorio/comoda jasper.jpeg" alt="Cómoda Jasper">
+                        <h4>Comoda jasper</h4>
+                        <p>S/ 100</p>
+                    </a>
                 </div>
-
-                <div class="grid-productos">
-                    <!-- Tarjeta 1 -->
-                    <div class="card">
-                        <a href="11-productos.html?id=prod-02">
-                            <img src="../Img/dormitorio/comoda sable.png" alt="Cómoda Sable 4">
-                            <h4>Cómoda Sable 4</h4>
-                            <p>S/ 89</p>
-                        </a>
-                    </div>
-
-                    <!-- Tarjeta 2 -->
-                    <div class="card">
-                        <a href="11-productos.html?id=prod-522">
-                            <img src="../Img/dormitorio/comoda jasper.jpeg" alt="Cómoda Jasper ">
-                            <h4>Comoda Jasper</h4>
-                            <p>S/ 100</p>
-                        </a>
-                    </div>
-
-                    <!-- Tarjeta 3 -->
-                    <div class="card">
-                        <a href="11-productos.html?id=prod-06">
-                            <img src="../Img/dormitorio/cama oslo.png" alt="Cama Tapizada Oslo">
-                            <h4>Cama Tapizada Oslo</h4>
-                            <p>S/ 389</p>
-                        </a>
-                    </div>
-
-                    <!-- Tarjeta 4 -->
-                    <div class="card">
-                        <a href="11-productos.html?id=prod-2008">
-                            <img src="../Img/dormitorio/cama duquesa.jpeg" alt="Cama Duquesa">
-                            <h4>Cama Duquesa</h4>
-                            <p>S/ 400</p>
-                        </a>
-                    </div>
-
-                    <!-- Tarjeta 5 -->
-                    <div class="card">
-                        <a href="11-productos.html?id=prod-59">
-                            <img src="../Img/dormitorio/ropero siena.jpeg" alt="Ropero Siena">
-                            <h4>Ropero Siena</h4>
-                            <p>S/ 450</p>
-                        </a>
-                    </div>
-
-                    <!-- Tarjeta 6 -->
-                    <div class="card">
-                        <a href="11-productos.html?id=prod-60">
-                            <img src="../Img/dormitorio/ropero clapton.jpeg" alt="Ropero Clapton">
-                            <h4>Ropero Clapton</h4>
-                            <p>S/ 380</p>
-                        </a>
-                    </div>
+                <!-- Producto 3 -->
+                <div class="card">
+                    <a href="11-productos.html?id=mi-dorm-03">
+                        <img src="../Img/dormitorio/cama oslo.png" alt="Cama Oslo">
+                        <h4>Cama oslo</h4>
+                        <p>S/ 389</p>
+                    </a>
+                </div>
+                <!-- Producto 4 -->
+                <div class="card">
+                    <a href="11-productos.html?id=mi-dorm-04">
+                        <img src="../Img/dormitorio/Cama duquesa.webp" alt="Cama Duquesa">
+                        <h4>Cama duquesa</h4>
+                        <p>S/ 400</p>
+                    </a>
+                </div>
+                <!-- Producto 5 -->
+                <div class="card">
+                    <a href="11-productos.html?id=mi-dorm-05">
+                        <img src="../Img/dormitorio/ropero siena.jpeg" alt="Ropero Siena">
+                        <h4>Ropero siena</h4>
+                        <p>S/ 450</p>
+                    </a>
+                </div>
+                <!-- Producto 6 -->
+                <div class="card">
+                    <a href="11-productos.html?id=mi-dorm-06">
+                        <img src="../Img/dormitorio/ropero clapton.jpeg" alt="Ropero Clapton">
+                        <h4>Ropero clapton</h4>
+                        <p>S/ 380</p>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </main>
 
     <footer class="text-white mt-5">
@@ -169,7 +150,6 @@
                     <a href=""><p>Envíos</p></a>
                     <a href=""><p>Devoluciones</p></a>
                 </div>
-
                 <div class="col-md-4">
                     <h5>Síguenos</h5>
                     <div class="fs-3">
@@ -193,6 +173,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Vinculamos tu script de base de datos -->
     <script src="../JS/auto-rell.js"></script>
 </body>
 </html>
