@@ -639,7 +639,7 @@ const productos = [
     color: "Gris",
     dimensiones: "45 x 20 cm"},
 
-    // === MI SALA (CORREGIDO CON LOS PRODUCTOS REALES DEL HTML) ===
+//sala
     {
         id: "mi-prod-sala-01",
         nombre: "Sofá Atlas",
@@ -707,7 +707,7 @@ const productos = [
         dimensiones: "0.95 x 0.95 x 1.00 m"
     },
 
-// === MI DORMITORIO (CORREGIDO Y SIN ERRORES DE IMAGEN) ===
+//dormitorio
 {
     id: "prod-02",
     nombre: "Cómodas Sable 4",
@@ -775,7 +775,7 @@ const productos = [
     dimensiones: "195 x 150 x 110 cm"
 },
 
-// === MIS 6 PRODUCTOS DE OFICINA (IDs ÚNICOS) ===
+//oficina
 {
     id: "mi-prod-ofic-01",
     nombre: "Silla ErgoMax",
