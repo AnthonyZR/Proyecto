@@ -707,44 +707,9 @@ const productos = [
         dimensiones: "0.95 x 0.95 x 1.00 m"
     },
 
-    // === CATEGORÍA: SALA ===
+    //DORMITORIO
     {
-        id: "mi-prod-sala-01",
-        nombre: "Sofá Atlas",
-        precio: 699,
-        categoria: "Sala",
-        imagen: "../Img/sala/sofa atlas.png",
-        descripcion: "Sofá compacto de diseño contemporáneo, ideal para departamentos modernos y espacios optimizados de convivencia.",
-        material: "Estructura de madera tratada y tapizado en tela resistente",
-        color: "Gris oscuro",
-        dimensiones: "1.80 x 0.85 x 0.80 m"
-    },
-    {
-        id: "mi-prod-sala-02",
-        nombre: "Mesa Nórdica",
-        precio: 129,
-        categoria: "Sala",
-        imagen: "../Img/sala/mesa centro nordica.png",
-        descripcion: "Mesa de centro de estilo escandinavo con sutiles líneas limpias y patas de madera clara expuesta.",
-        material: "Tablero de MDF lacado y patas de madera maciza de pino",
-        color: "Blanco y Madera natural",
-        dimensiones: "0.90 x 0.50 x 0.45 m"
-    },
-    {
-        id: "mi-prod-sala-03",
-        nombre: "Sofá Serene Comfort",
-        precio: 3499,
-        categoria: "Sala",
-        imagen: "../Img/sala/sofa serene.png",
-        descripcion: "Sofá de líneas bajas con extensión chaise longue derecha, diseñado para salas amplias.",
-        material: "Estructura interna de madera maciza y lino premium",
-        color: "Beige arena",
-        dimensiones: "3.20 x 1.05 x 1.75 m"
-    },
-
-    // === CATEGORÍA: DORMITORIO ===
-    {
-        id: "mi-prod-sala-07",
+        id: "mi-dorm-07",
         nombre: "Comoda sable",
         precio: 89,
         categoria: "Dormitorio",
@@ -755,7 +720,7 @@ const productos = [
         dimensiones: "90 x 60 x 40 cm"
     },
     {
-        id: "mi-prod-sala-08",
+        id: "mi-dorm-08",
         nombre: "Comoda jasper",
         precio: 100,
         categoria: "Dormitorio",
@@ -766,7 +731,7 @@ const productos = [
         dimensiones: "100 x 80 x 45 cm"
     },
     {
-        id: "mi-prod-sala-09",
+        id: "mi-dorm-09",
         nombre: "Cama oslo",
         precio: 389,
         categoria: "Dormitorio",
@@ -777,7 +742,7 @@ const productos = [
         dimensiones: "200 x 150 x 110 cm"
     },
     {
-        id: "mi-prod-sala-10",
+        id: "mi-dorm-10",
         nombre: "Cama duquesa",
         precio: 400,
         categoria: "Dormitorio",
@@ -788,7 +753,7 @@ const productos = [
         dimensiones: "210 x 160 x 120 cm"
     },
     {
-        id: "mi-prod-sala-11",
+        id: "mi-dorm-11",
         nombre: "Ropero siena",
         precio: 450,
         categoria: "Dormitorio",
@@ -799,7 +764,7 @@ const productos = [
         dimensiones: "190 x 140 x 50 cm"
     },
     {
-        id: "mi-prod-sala-12",
+        id: "mi-dorm-12",
         nombre: "Ropero clapton",
         precio: 380,
         categoria: "Dormitorio",
@@ -811,7 +776,7 @@ const productos = [
     },
 //oficina
 {
-    id: "pmi-prod-sala-13",
+    id: "mi-ofin-sala-13",
     nombre: "Silla ErgoMax",
     precio: 159,
     categoria: "Oficina",
@@ -822,7 +787,7 @@ const productos = [
     dimensiones: "62 x 58 x 118 cm"
 },
 {
-    id: "pmi-prod-sala-14",
+    id: "mi-ofin-sala-14",
     nombre: "Escritorio Elevable Premium",
     precio: 299,
     categoria: "Oficina",
@@ -833,47 +798,47 @@ const productos = [
     dimensiones: "140 x 70 x 65-125 cm"
 },
 {
-    id: "mi-prod-ofic-03",
+    id: "mi-ofin-sala-15",
     nombre: "Organizador de Archivos Móvil",
     precio: 79,
     categoria: "Oficina",
-    imagen: "../Img/oficina/organizador movil.png",
+    imagen: "../Img/oficina/archivero-metalico-3cajones.webp",
     descripcion: "Cajonera con ruedas y cerradura de seguridad, perfecta para mantener documentos importantes bajo llave.",
     material: "Metal con pintura electrostática",
     color: "Gris Grafito",
     dimensiones: "40 x 50 x 60 cm"
 },
 {
-    id: "mi-prod-ofic-04",
+    id: "mi-ofin-sala-16",
     nombre: "Librero Ejecutivo Oxford",
     precio: 249,
     categoria: "Oficina",
-    imagen: "../Img/oficina/librero oxford.png",
+    imagen: "../Img/oficina/estante-librero-moderno.webp",
     descripcion: "Estantería robusta de diseño clásico con repisas ajustables para libros pesados y decoraciones.",
     material: "Madera enchapada en roble",
     color: "Marrón Oscuro",
     dimensiones: "80 x 30 x 190 cm"
 },
 {
-    id: "mi-prod-ofic-05",
-    nombre: "Silla Ejecutiva Boss",
-    precio: 199,
+    id: "mi-ofin-sala-17",
+    nombre: "Lámpara de Escritorio LED",
+    precio: 89,
     categoria: "Oficina",
-    imagen: "../Img/oficina/silla boss.png",
-    descripcion: "Silla de alta gama tapizada en cuero sintético premium, con reclinación asincrónica y descansa brazos acolchados.",
-    material: "Cuero PU y base cromada",
-    color: "Marrón Tabaco",
-    dimensiones: "68 x 65 x 125 cm"
+    imagen: "../Img/oficina/lampara-escritorio-led.webp",
+    descripcion: "Lámpara LED articulada con control táctil de brillo y múltiples modos de temperatura de color, ideal para largas jornadas de estudio.",
+    material: "Plástico ABS y aluminio ligero",
+    color: "Blanco Mínimal",
+    dimensiones: "15 x 15 x 45 cm"
 },
 {
-    id: "mi-prod-ofic-06",
-    nombre: "Mesa de Reuniones Compacta",
-    precio: 349,
+    id: "mi-ofin-sala-18",
+    nombre: "Soporte para Laptop de Aluminio",
+    precio: 79,
     categoria: "Oficina",
-    imagen: "../Img/oficina/mesa reuniones.png",
-    descripcion: "Mesa redonda ideal para salas de juntas pequeñas o espacios de coworking interactivos.",
-    material: "Madera y patas metálicas angulares",
-    color: "Gris y Negro",
-    dimensiones: "120 x 120 x 75 cm"
+    imagen: "../Img/oficina/soporte-laptop-aluminio.webp",
+    descripcion: "Soporte ergonómico elevador y portátil, con diseño ventilado para enfriamiento pasivo y almohadillas de silicona antideslizantes.",
+    material: "Aleación de Aluminio Premium",
+    color: "Gris Espacial",
+    dimensiones: "26 x 22 x 15 cm"
 }
 ];
